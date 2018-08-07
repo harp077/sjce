@@ -1,0 +1,129 @@
+    while (true) {
+      String cmd = keyb.readLine();
+      logger.info("<==== From XBoard: " + cmd);
+
+      try {
+
+        // Filter commands
+        if (cmd.startsWith("quit")) {
+          break;
+        } else if (cmd.startsWith("xboard")) {
+          // Do nothing
+
+        } else if (cmd.startsWith("protover")) {
+
+          // Do nothing
+        } else if (cmd.startsWith("accepted")) {
+          // Do nothing
+
+        } else if (cmd.startsWith("new")) {
+
+          logger.info("Creating new game controller.");
+          
+          gameController = new GameController(playerWhite, playerBlack);
+          gameController.addGameControllerListener(this);
+
+          movesDone = 0;
+          
+          currentEngineColor = Game.COLOR_BLACK;
+          
+        } else if (cmd.startsWith("random")) {
+          // Do nothing
+
+        } else if (cmd.startsWith("level")) {
+
+          setLevel(cmd);
+
+        } else if (cmd.startsWith("sd")) {
+          
+          setSd(cmd);
+
+        } else if (cmd.startsWith("st")) {
+          
+          setSt(cmd);
+          
+        } else if (cmd.startsWith("time")) {
+         
+          setTime(cmd);
+
+        } else if (cmd.startsWith("otim")) {
+          // Do nothing
+
+        } else if (cmd.startsWith("hard")) {
+          // Do nothing
+
+        } else if (cmd.startsWith("white")) {
+          // Do nothing
+
+        } else if (cmd.startsWith("black")) {
+          // Do nothing
+
+        } else if (cmd.startsWith("force")) {
+          // Do nothing
+
+        } else if (cmd.startsWith("result")) {
+          // Do nothing
+
+        } else if (cmd.startsWith("post")) {
+          // Do nothing
+
+        } else if (cmd.startsWith("nopost")) {
+          // Do nothing
+
+        } else if (cmd.startsWith("easy")) {
+          // Do nothing
+
+        } else if (cmd.startsWith("edit")) {
+          // Do nothing
+
+        } else if (cmd.startsWith("#")) {
+          // Do nothing
+
+        } else if (cmd.startsWith("computer")) {
+          // Do nothing
+
+        } else if (cmd.startsWith("go")) {
+
+          logger.fine("Go received.");
+          if (currentEngineColor == gameController.getCurrentColorToMove()) {
+            logger.fine("Go ignored, as allready engine turn");
+          } else {
+            logger.fine("Compute next move");
+            gameController.computeNextMove(true);
+          }
+        } else {
+
+          logger.fine("Move recieved, entering move: " + cmd);
+          // Append xboard move to our game
+          MoveInput fromXBoard = XBoardMove.xBoard2Tiff(cmd);
+          gameController.enterNextMove(fromXBoard);
+          
+          currentEngineColor = gameController.getCurrentColorToMove();
+          
+
+          // Check if game is over, if not, reply with new move
+          GameState gameState = gameController.getCurrentGameState();
+          if (!gameState.gameOpen()) {
+            finishGame(gameState);
+          } else {
+            logger.fine("Compute next move.");
+            gameController.computeNextMove(true);
+          }
+
+        }
+      } catch (GameIllegalMoveException err) {
+        // doOutput("tellusererror MESSAGE: Illegal move: " + cmd);
+        // doOutput("Illegal move: " + cmd);
+        logger.log(Level.INFO, "IllegalMoveException: ", err);
+      } catch (XBoardMoveParsingException err) {
+        // doOutput("tellusererror MESSAGE:" + err.getMessage());
+        // doOutput("Error:" + err.getMessage());
+        logger.log(Level.INFO, "XBoardMoveParsingException: ", err);
+      } catch (GameControllerException err) {
+        // doOutput("tellusererror MESSAGE:" + err.getMessage());
+        // doOutput("Error: " + err.getMessage());
+        logger.log(Level.SEVERE, "Unexpected Error: ", err);
+      }
+    }
+
+  }

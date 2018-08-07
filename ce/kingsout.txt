@@ -1,0 +1,107 @@
+
+
+                              King's Out 0.2.42
+                             
+                                   README
+
+                               June, 14th 2006
+                               
+                               
+                                 
+                (C) copyright 2004-2006 by Bernd Nuernberger
+                          
+                          
+                                 
+DISCLAIMER
+
+This program is provided "as is" without warranty of any kind. It's a spare
+time project given away for no charge. I've done my best to avoid any errors.
+But don't hold me responsible, if it does not fit your means or does any
+unintended damage to you or your computer. Last but not least, don't blame me
+for my bad english, because it's not my mother tongue.
+
+
+LICENSE
+
+This program is freeware. You may use it and distribute it freely as long as
+you don't charge a fee for it. You may also copy parts of the code as long as
+you give credit to me somewhere in your program and don't blame me for any
+errors/lacks of quality it certainly has ;-)
+
+
+
+1. WHAT IS KING'S OUT?
+
+King's Out is a chess engine, written in Java. It's a spare time project of
+myself, I started in January 2004. It has undergone some major rewrites but
+the code is far away from being really good. Writing an engine in Java is
+always a trade off in code quality and performance. C++ would be better from
+this point of view because in C++ it's easier to write good and fast code.
+But I like Java very much and it's my language of choice.
+
+King's Out comes with an interface to XBoard and a native text interface.
+
+At this time, I would name King's Out an "outsearcher". It searches deeper than
+many other weak engines. This makes it rather strong for a Java based engine
+without many sophisticated evaluation terms. Therefor it is tactically strong,
+but has no deeper understanding of the positions it searches. Fast & dumb :-)
+Some basic pawn knowledge has been added with version 0.2.41, but the weights
+are not tuned at all. It may be even weaker now compared to version 0.2.40.
+
+But first steps are done in the right dircection concerning a better static
+position evaluation.
+
+2. XBOARD INTERFACE
+
+You can start King's Out in XBoard mode by just running the JAR archive:
+
+    java -jar kingsout.jar
+    
+For more information about XBoard resp. WinBoard see Tim Mann's page:
+
+    http://tim-mann.org/xboard.html
+    
+Supported XBoard commands:
+
+    - ?
+    - black
+    - easy
+    - force
+    - go
+    - hard
+    - hint
+    - level
+    - new
+    - nopost
+    - name
+    - ping
+    - playother
+    - post
+    - quit :-)
+    - remove
+    - sd
+    - setboard
+    - st
+    - time
+    - undo
+    - white
+    
+    
+3. NATIVE TEXT INTERFACE
+
+Not very sophisticated but can nethertheless be used to play games and seems to
+work properly. Just start with:
+
+    java -jar kingsout.jar -T
+    
+Enter 'help' to get a brief help on every command.
+
+
+4. OUTRO
+
+If you have suggestions or find any bug, please don't hestitate to drop me a
+line:
+
+    nuerberg@fmi.uni-passau.de
+    
+Thanks!!!

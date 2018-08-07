@@ -1,0 +1,31 @@
+
+			64 vs. 32 Bit
+
+
+Fischerle is a chess engine designed for 64 bit environments.
+
+The core of Fischerle is constituted by an efficient implementation
+of the rotated bitboard model for chess position representation.
+Thus, Fischerle is highly recommended to be employed on 64 bit
+systems (NB: operating system AND Java Runtime Environment!), since
+this greatly enhances the performance of bitboard-based computations.
+
+Running Java-based Fischerle on 32 bit systems is of course possible,
+but performance will decline considerably.
+
+IMPORTANT: PLEASE MAKE SURE THAT YOU ARE EMPLOYING THE .exe OR .bat
+STARTER that fits your particular environment (i. e., 64 or 32 bit),
+since the numbers of hash table entries to be assigned depend upon
+whether you are running Fischerle on a 64 bit or 32 bit system.
+That is, on 32 bit systems, hash table cardinalities can be somewhat
+larger, since the memory footprints of the hash table entries are
+smaller.
+
+For full details, see document "README 0_9_70_SE_64_or_32.txt",
+section "Hash Table Sizes".
+
+
+Roland		           Frankfurt am Main, March 25th, 2016
+
+roland@stuckardt.de
+www.stuckardt.de/index.php/schachengine-fischerle.html

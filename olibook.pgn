@@ -1,0 +1,503 @@
+[White "OliThink513"]
+[Black "Glaurung"]
+1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 d6 5.Nf3 Nc6 6.b3 e6 7.Bb2 Nge7 8.O-O O-O 9.e3 e5 *
+
+[White "OliThink514"]
+[Black "Phalanx"]
+1.c4 c6 2.d4 d5 3.Nc3 Nf6 4.Nf3 a6 5.c5 Nbd7 6.Bf4 Nh5 7.Bd2 Nhf6 8.h3 Qc7 9.Bg5 e5 *
+
+[White "OliThink512"]
+[Black "Crafty"]
+1.c4 e5 2.Nc3 Nf6 3.Nf3 c5 4.e3 Nc6 5.a3 d5 6.cxd5 Nxd5 7.Qa4 Nb6 8.Qc2 Bd6 9.d3 f5 *
+
+[White "OliThink513"]
+[Black "Crafty"]
+1.c4 e6 2.d4 c5 3.d5 exd5 4.cxd5 d6 5.Nc3 Nf6 6.e4 Be7 7.Nf3 O-O 8.Bd3 Qb6 9.Nd2 Qc7 *
+
+[White "OliThink516"]
+[Black "Crafty"]
+1.c4 e6 2.Nc3 d5 3.d4 c6 4.cxd5 exd5 5.Qc2 Ne7 6.Bg5 h6 7.Bh4 Qa5 8.e3 Na6 9.Nf3 Bf5 *
+
+[White "OliThink516"]
+[Black "Crafty"]
+1.c4 e6 2.Nc3 d5 3.d4 c6 4.cxd5 exd5 5.Qc2 Ne7 6.Bg5 h6 7.Bh4 Qa5 8.e3 Na6 9.Nf3 Bf5 *
+
+[White "OliThink512"]
+[Black "Crafty"]
+1.c4 e6 2.Nf3 f5 3.d4 c6 4.Nc3 d5 5.Bf4 Nd7 6.e3 Ngf6 7.Bd3 Ne4 8.Qc2 Ndf6 9.h3 Be7 *
+
+[White "OliThink512"]
+[Black "Crafty"]
+1.c4 e6 2.Nf3 Bb4 3.g3 d6 4.Bg2 Nd7 5.O-O e5 6.Nc3 Bc5 7.Qc2 Qe7 8.e3 Nb6 9.b3 Bb4 *
+
+[White "OliThink512"]
+[Black "Crafty"]
+1.c4 Nf6 2.d4 d6 3.Nc3 g6 4.e4 e5 5.Nf3 Nbd7 6.dxe5 dxe5 7.Be2 c6 8.O-O Qc7 9.h3 Nc5 *
+
+[White "OliThink513"]
+[Black "Glaurung"]
+1.c4 Nf6 2.Nc3 c5 3.e3 Nc6 4.d4 cxd4 5.exd4 d5 6.Bf4 e6 7.Nf3 Be7 8.c5 O-O 9.Bd3 b6 *
+
+[White "OliThink512"]
+[Black "Phalanx"]
+1.c4 Nf6 2.Nc3 e6 3.b3 Be7 4.Bb2 O-O 5.g3 d5 6.Bg2 c5 7.cxd5 Nxd5 8.Nf3 Nxc3 9.Bxc3 Nc6 * 
+
+[White "OliThink512"]
+[Black "Glaurung"]
+1.c4 Nf6 2.Nc3 g6 3.e4 d6 4.d4 Bg7 5.Bd3 Nc6 6.Nge2 e5 7.d5 Nd4 8.Bg5 h6 9.Be3 Ng4 *
+
+[White "OliThink512"]
+[Black "Crafty"]
+1.c4 Nf6 2.Nf3 e6 3.d4 c6 4.Nc3 d5 5.cxd5 exd5 6.Qc2 Na6 7.a3 Nc7 8.Bg5 g6 9.e3 Bf5 *
+
+[White "OliThink512"]
+[Black "Crafty"]
+1.c4 Nf6 2.Nf3 g6 3.g3 b6 4.Bg2 Bb7 5.b3 Bg7 6.Bb2 O-O 7.O-O e6 8.d4 Na6 9.e3 d5 *
+
+[White "OliThink513"]
+[Black "Glaurung"]
+1.d4 d5 2.c3 Nf6 3.Bg5 Nbd7 4.e3 g6 5.Nd2 Bg7 6.f4 O-O 7.Bd3 c5 8.Qf3 Qb6 9.Rb1 Qe6 *
+
+[White "OliThink516"]
+[Black "Crafty"]
+1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 Nbd7 5.Nf3 e6 6.Bd3 dxc4 7.Bxc4 Bd6 8.Qc2 b5 9.Bd3 Bb7 *
+
+[White "OliThink516"]
+[Black "Crafty"]
+1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 Nbd7 5.Nf3 e6 6.Bd3 dxc4 7.Bxc4 Bd6 8.Qc2 b5 9.Bd3 Bb7 *
+
+[White "OliThink512"]
+[Black "Crafty"]
+1.d4 d5 2.c4 e6 3.Nf3 Nf6 4.Qc2 Nbd7 5.g3 Bb4+ 6.Nbd2 O-O 7.Bg2 b6 8.O-O Bb7 9.cxd5 exd5 *
+
+[White "OliThink512"]
+[Black "Rybka*"]
+1.d4 d5 2.Bf4 g6 3.e3 Nf6 4.Nf3 Nc6 5.Nc3 Nh5 6.a3 Nxf4 7.exf4 Bh6 8.g3 O-O 9.h4 Bg4 *
+
+[White "OliThink513"]
+[Black "Crafty"]
+1.d4 d5 2.Bf4 Bf5 3.e3 c6 4.g4 Be6 5.Nc3 Qb6 6.a3 Nd7 7.b4 h6 8.h4 g6 9.Rb1 Bg7 *
+
+[White "OliThink512"]
+[Black "Crafty"]
+1.d4 d5 2.Nf3 b6 3.g3 Nf6 4.Nc3 e6 5.Bg2 Bb4 6.Bd2 Ba6 7.O-O O-O 8.Re1 Nbd7 9.a3 Bd6 *
+
+[White "OliThink512"]
+[Black "Glaurung"]
+1.d4 e6 2.c4 Nf6 3.e3 c5 4.Nf3 d6 5.Nc3 Nbd7 6.b3 a6 7.Bb2 Be7 8.g3 Rb8 9.a4 O-O *
+
+[White "OliThink512"]
+[Black "Glaurung"]
+1.d4 e6 2.c4 d5 3.g3 Nf6 4.Bg2 Nbd7 5.Nf3 Be7 6.O-O O-O 7.Nbd2 b6 8.cxd5 exd5 9.Ne5 Bb7 *
+
+[White "OliThink512"]
+[Black "Glaurung"]
+1.d4 e6 2.c4 d5 3.Nc3 Be7 4.Nf3 Nf6 5.Bf4 O-O 6.e3 Nbd7 7.a3 c5 8.cxd5 Nxd5 9.Nxd5 exd5 *
+
+[White "OliThink513"]
+[Black "Crafty"]
+1.d4 e6 2.e4 d5 3.exd5 exd5 4.Bf4 Bd6 5.Bxd6 Qxd6 6.Nc3 Bf5 7.Nf3 Ne7 8.Bd3 Bg6 9.O-O Nbc6 *
+
+[White "OliThink512"]
+[Black "Phalanx"]
+1.d4 e6 2.Nf3 Nf6 3.c4 d5 4.Nbd2 b6 5.cxd5 exd5 6.g3 Bb7 7.Bg2 Nbd7 8.O-O Bd6 9.Nh4 O-O *
+
+[White "OliThink512"]
+[Black "Crafty"]
+1.d4 e6 2.Nf3 Nf6 3.c4 d5 4.Nbd2 b6 5.cxd5 exd5 6.g3 Bb7 7.Bg2 Nbd7 8.O-O Bd6 9.Nh4 O-O *
+
+[White "OliThink512"]
+[Black "Glaurung"]
+1.d4 Nf6 2.c4 a6 3.Nc3 e6 4.e4 d5 5.e5 Ne4 6.cxd5 exd5 7.Bd3 f5 8.Nge2 c6 9.f3 Ng5 *
+
+[White "OliThink512"]
+[Black "Glaurung"]
+1.d4 Nf6 2.c4 a6 3.Nc3 e6 4.e4 d5 5.e5 Ne4 6.cxd5 exd5 7.Bd3 f5 8.Nge2 c6 9.f3 Ng5 *
+
+[White "OliThink512"]
+[Black "Crafty"]
+1.d4 Nf6 2.c4 a6 3.Nc3 e6 4.e4 d5 5.e5 Ne4 6.cxd5 exd5 7.Bd3 f5 8.Nge2 c6 9.f3 Ng5 *
+
+[White "OliThink512"]
+[Black "Crafty"]
+1.d4 Nf6 2.c4 a6 3.Nc3 e6 4.e4 d5 5.e5 Ne4 6.cxd5 exd5 7.Bd3 f5 8.Nge2 c6 9.f3 Ng5 *
+
+[White "OliThink512"]
+[Black "Glaurung"]
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 d5 5.a3 Bxc3+ 6.Qxc3 Ne4 7.Qc2 c5 8.dxc5 Nc6 9.e3 Qa5+ *
+
+[White "OliThink512"]
+[Black "Crafty"]
+1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.e3 a6 5.Nbd2 c5 6.cxd5 exd5 7.b3 Nc6 8.Bb2 Bd6 9.dxc5 Bxc5 *
+
+[White "OliThink512"]
+[Black "Crafty"]
+1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.e3 c5 5.Nc3 dxc4 6.Bxc4 a6 7.a3 b5 8.Ba2 Bb7 9.O-O Nbd7 *
+
+[White "OliThink512"]
+[Black "Crafty"]
+1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Nbd2 b6 5.a3 Bxd2+ 6.Qxd2 Bb7 7.e3 Ne4 8.Qc2 O-O 9.Be2 f5 *
+
+[White "OliThink513"]
+[Black "Crafty"]
+1.d4 Nf6 2.c4 g6 3.Nc3 c5 4.dxc5 Na6 5.g3 Nxc5 6.Bg2 Bg7 7.Bd2 d6 8.Rc1 O-O 9.Nh3 Nfe4 *
+
+[White "OliThink512"]
+[Black "Crafty"]
+1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 O-O 6.Be2 e5 7.O-O Nh5 8.Bg5 f6 9.Be3 Nf4 *
+
+[White "OliThink513"]
+[Black "Crafty"]
+1.d4 Nf6 2.c4 h6 3.Nc3 c5 4.d5 d6 5.e4 g6 6.Nf3 Bg7 7.Bd3 Bg4 8.h3 Bxf3 9.Qxf3 Nbd7 *
+
+[White "OliThink516"]
+[Black "Crafty"]
+1.d4 Nf6 2.c4 h6 3.Nc3 c5 4.d5 d6 5.e4 g6 6.Nf3 Bg7 7.Bd3 Bg4 8.h3 Bxf3 9.Qxf3 Nbd7 *
+
+[White "OliThink512"]
+[Black "Phalanx"]
+1.d4 Nf6 2.c4 h6 3.Nc3 c5 4.d5 d6 5.e4 g6 6.Nf3 Bg7 7.Bd3 Bg4 8.h3 Bxf3 9.Qxf3 Nbd7 *
+
+[White "OliThink513"]
+[Black "Glaurung"]
+1.d4 Nf6 2.Nf3 e6 3.c4 Ne4 4.Nfd2 Bb4 5.Qc2 d5 6.Nc3 f5 7.Ndxe4 fxe4 8.Bf4 O-O 9.e3 c6 *
+
+[White "OliThink512"]
+[Black "Crafty"]
+1.d4 Nf6 2.Nf3 e6 3.Bg5 c5 4.e3 Be7 5.Nbd2 b6 6.Bd3 Bb7 7.c3 cxd4 8.cxd4 Nc6 9.a3 Nd5 *
+
+[White "OliThink515"]
+[Black "Crafty"]
+1.d4 Nf6 2.Nf3 g6 3.g3 d5 4.Bg2 Bg7 5.O-O O-O 6.c4 dxc4 7.Na3 Na6 8.Ne5 c5 9.dxc5 Nxc5 *
+
+[White "OliThink512"]
+[Black "Phalanx"]
+1.e4 c5 2.a3 g6 3.b4 Bg7 4.c3 d5 5.exd5 Qxd5 6.Nf3 Nf6 7.Be2 O-O 8.c4 Qd8 9.Bb2 b6 *
+
+[White "OliThink512"]
+[Black "Phalanx"]
+1.e4 c5 2.Bc4 e6 3.Qe2 Nc6 4.c3 Be7 5.d3 d5 6.Bb3 Nf6 7.Nf3 O-O 8.O-O b5 9.Bg5 c4 *
+
+[White "OliThink512"]
+[Black "UkrainianMachin"]
+1.e4 c5 2.Nf3 d6 3.Nc3 Nf6 4.d4 cxd4 5.Qxd4 Nc6 6.Bb5 Bd7 7.Bxc6 Bxc6 8.Be3 e5 9.Qd3 Be7 *
+
+[White "OliThink512"]
+[Black "Glaurung"]
+1.e4 c5 2.Nf3 e6 3.Nc3 a6 4.d4 cxd4 5.Nxd4 d6 6.g4 Ne7 7.g5 Nec6 8.Be3 b5 9.h4 b4 *
+
+[White "OliThink512"]
+[Black "Glaurung"]
+1.e4 c5 2.Nf3 e6 3.Nd4 Nc6 4.Nc3 d6 5.Be2 Nf6 6.O-O Bd7 7.a4 a6 8.f4 Be7 9.Nxc6 O-O *
+
+[White "OliThink512"]
+[Black "Glaurung"]
+1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Qb6 6.Nb3 e6 7.Bd3 Bb4 8.O-O O-O 9.Be3 Qd8 *
+
+[White "OliThink514"]
+[Black "Crafty"]
+1.e4 c6 2.d4 d5 3.e5 e6 4.Bd3 b6 5.Ne2 Ba6 6.O-O Qd7 7.Nf4 g6 8.Nd2 Ne7 9.Nf3 h6 *
+
+[White "OliThink513"]
+[Black "Crafty"]
+1.e4 c6 2.d4 Na6 3.Nc3 Nc7 4.Nf3 g6 5.Be2 Bg7 6.O-O d6 7.h3 e5 8.Be3 exd4 9.Nxd4 Nf6 *
+
+[White "OliThink512"]
+[Black "Crafty"]
+1.e4 c6 2.d4 Na6 3.Nf3 g6 4.Nc3 Nc7 5.Be2 Bg7 6.O-O d6 7.h3 Nf6 8.e5 dxe5 9.dxe5 Qxd1 *
+
+[White "OliThink514"]
+[Black "Phalanx"]
+1.e4 c6 2.d4 d5 3.Nd2 dxe4 4.Nxe4 Nd7 5.Ng5 e6 6.Bd3 c5 7.N1f3 cxd4 8.O-O Be7 9.Bxh7 Bxg5 *
+
+[White "OliThink513"]
+[Black "Glaurung"]
+1.e4 c6 2.f4 d5 3.Nc3 dxe4 4.Nxe4 g6 5.Bc4 Bg7 6.Nf3 Nh6 7.d4 O-O 8.c3 Nf5 9.Bb3 Nd6 *
+
+[White "OliThink512"]
+[Black "BertaSchnebel"]
+1.e4 d5 2.e5 Bf5 3.g4 Be4 4.f3 Bg6 5.d4 e6 6.h4 h5 7.g5 c5 8.Bb5+ Nd7 9.Ne2 Qc7 *
+
+[White "OliThink512"]
+[Black "Crafty"]
+1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Nxc6 Qf6 6.Qd2 dxc6 7.Nc3 Ne7 8.Qf4 Qxf4 9.Bxf4 Bb6 *
+
+[White "OliThink512"]
+[Black "Glaurung"]
+1.e4 e5 2.Nf3 Nc6 3.Bb5 Be7 4.O-O Nf6 5.Nc3 d6 6.d4 Nd7 7.Ne2 O-O 8.Ng3 Bf6 9.c3 Ndb8 *
+
+[White "OliThink512"]
+[Black "Toga"]
+1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.a3 Bc5 5.Nxe5 Nxe5 6.d4 Bd6 7.dxe5 Bxe5 8.Ne2 c6 9.f4 Bc7 *
+
+[White "OliThink514"]
+[Black "Crafty"]
+1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4 d5 6.Bd3 Bd6 7.O-O O-O 8.c4 c6 9.Re1 Bf5 *
+
+[White "OliThink512"]
+[Black "Toga*"]
+1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.dxe5 Bc5 5.Be3 Bxe3 6.fxe3 d5 7.Nc3 Nxc3 8.bxc3 O-O 9.Rb1 Re8 *
+
+[White "OliThink512"]
+[Black "Glaurung"]
+1.e4 e5 2.Nf3 Qe7 3.Bc4 d6 4.Nc3 c6 5.d4 h6 6.a4 g5 7.h3 Nd7 8.b3 Qf6 9.Bb2 Ne7 *
+
+[White "OliThink513"]
+[Black "Glaurung"]
+1.e4 e6 2.b3 d5 3.Bb2 a6 4.Qe2 d4 5.c3 c5 6.f4 Nc6 7.Nf3 Nge7 8.Na3 Ng6 9.g3 e5 *
+
+[White "OliThink512"]
+[Black "Phalanx"]
+1.e4 e6 2.b3 d5 3.Bb2 a6 4.Qe2 d4 5.c3 c5 6.f4 Nc6 7.Nf3 Nge7 8.Na3 Ng6 9.g3 e5 *
+
+[White "OliThink513"]
+[Black "Glaurung"]
+1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.Bxe7 Qxe7 7.f4 a6 8.Nf3 c5 9.dxc5 Nc6 *
+
+[White "OliThink513"]
+[Black "Crafty"]
+1.e4 e6 2.d4 d5 3.Nd2 c5 4.c3 cxd4 5.cxd4 dxe4 6.Nxe4 Bb4+ 7.Nc3 Nf6 8.Nf3 O-O 9.Bd3 b6 *
+
+[White "OliThink513"]
+[Black "Glaurung"]
+1.e4 e6 2.d4 Nf6 3.Bd3 e5 4.c3 d5 5.dxe5 Nxe4 6.Nd2 Nc6 7.Ngf3 Nc5 8.Bb1 Bg4 9.O-O Be7 *
+
+[White "OliThink513"]
+[Black "Glaurung"]
+1.e4 e6 2.d4 Nf6 3.Bd3 e5 4.c3 d5 5.dxe5 Nxe4 6.Nd2 Nc6 7.Ngf3 Nc5 8.Bb1 Bg4 9.O-O Be7 *
+
+[White "OliThink512"]
+[Black "Phalanx"]
+1.Nf3 c5 2.d4 e6 3.e4 cxd4 4.Nxd4 Nc6 5.Nc3 Qc7 6.Ndb5 Qb8 7.a4 Nf6 8.Bd3 Bc5 9.O-O d5 *
+
+[White "OliThink512"]
+[Black "Phalanx"]
+1.Nf3 c5 2.c4 Nf6 3.Nc3 d5 4.g3 Nc6 5.Bg2 e6 6.cxd5 Nxd5 7.Qa4 Bd7 8.Qb3 Ndb4 9.a3 c4 *
+
+[White "OliThink512"]
+[Black "Crafty"]
+1.Nf3 d5 2.d4 Nd7 3.c4 dxc4 4.e4 Nb6 5.Bxc4 Nxc4 6.Qa4+ c6 7.Qxc4 Nf6 8.Nc3 b5 9.Qe2 b4 *
+
+[White "OliThink512"]
+[Black "Crafty"]
+1.Nf3 Nf6 2.c4 b6 3.g3 c5 4.Bg2 Bb7 5.O-O g6 6.Nc3 Bg7 7.d4 cxd4 8.Qxd4 d6 9.Be3 Nbd7 *
+
+[White "OliThink516"]
+[Black "Glaurung"]
+1.Nf3 Nf6 2.c4 c5 3.e3 e6 4.Nc3 d6 5.Be2 Be7 6.O-O Nbd7 7.b3 O-O 8.Bb2 a6 9.d4 b6 *
+
+[White "OliThink516"]
+[Black "Glaurung"]
+1.Nf3 Nf6 2.c4 c5 3.e3 e6 4.Nc3 d6 5.Be2 Be7 6.O-O Nbd7 7.b3 O-O 8.Bb2 a6 9.d4 b6 *
+
+[White "OliThink516"]
+[Black "Crafty"]
+1.Nf3 Nf6 2.c4 e6 3.d4 b6 4.g3 Bb7 5.Bg2 Be7 6.O-O O-O 7.Re1 Na6 8.Ne5 Bxg2 9.Kxg2 c6 *
+
+[White "OliThink516"]
+[Black "Crafty"]
+1.Nf3 Nf6 2.c4 e6 3.d4 b6 4.g3 Bb7 5.Bg2 Be7 6.O-O O-O 7.Re1 Na6 8.Ne5 Bxg2 9.Kxg2 c6 *
+
+[White "OliThink512"]
+[Black "Crafty"]
+1.Nf3 Nf6 2.c4 e6 3.Nc3 d5 4.e3 c5 5.d4 Nc6 6.cxd5 exd5 7.Bb5 Bd6 8.O-O O-O 9.h3 Bf5 *
+
+[White "OliThink512"]
+[Black "Phalanx"]
+1.Nf3 Nf6 2.c4 g6 3.g3 Bg7 4.Bg2 O-O 5.O-O Nc6 6.d4 a6 7.Nc3 d6 8.Qd3 Nd7 9.Be3 e5 *
+
+[White "OliThink512"]
+[Black "Crafty"]
+1.Nf3 Nf6 2.g3 g6 3.b3 Bg7 4.Bb2 O-O 5.Bg2 d6 6.d4 e5 7.dxe5 Ng4 8.h3 Nxe5 9.Nxe5 dxe5 *
+
+[White "Rybka*"]
+[Black "OliThink512"]
+1.c4 Nc6 2.g3 e5 3.Bg2 Bc5 4.Nc3 Nf6 5.d3 d6 6.Bg5 Bxf2+ 7.Kd2 Bc5 8.Bxc6+ bxc6 9.Kc2 h6 *
+
+[White "Crafty"]
+[Black "OliThink514"]
+1.c4 e5 2.h3 Nc6 3.Nc3 g6 4.d3 Nge7 5.Nf3 h6 6.Qa4 Bg7 7.g3 d5 8.cxd5 Nxd5 9.Nxd5 Qxd5 *
+
+[White "Crafty"]
+[Black "OliThink514"]
+1.c4 e5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 d6 6.Rb1 a5 7.a3 Nf6 8.Nf3 O-O 9.O-O Nd4 *
+
+[White "Crafty"]
+[Black "OliThink512"]
+1.c4 e6 2.d4 b6 3.g3 Bb7 4.d5 Bb4+ 5.Bd2 Qe7 6.Bg2 Qc5 7.a3 Bxd2+ 8.Nxd2 exd5 9.Rc1 Ne7 *
+
+[White "Phalanx"]
+[Black "OliThink512"]
+1.c4 e6 2.g3 d5 3.Bg2 Nf6 4.Nf3 Nc6 5.O-O d4 6.e3 e5 7.a3 a5 8.exd4 exd4 9.d3 Be7 *
+
+[White "Crafty"]
+[Black "OliThink512"]
+1.c4 Nf6 2.Nf3 d6 3.g3 e5 4.Nc3 Nc6 5.Bg2 g6 6.O-O Bg7 7.d3 O-O 8.a3 Qe7 9.Bg5 Nd4 *
+
+[White "Phalanx"]
+[Black "OliThink512"]
+1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.cxd5 cxd5 5.Bf4 Nc6 6.e3 a6 7.Bd3 Bg4 8.Nge2 e6 9.h3 Bh5 *
+
+[White "Glaurung"]
+[Black "OliThink513"]
+1.d4 d5 2.c4 dxc4 3.e4 e5 4.Nf3 exd4 5.Bxc4 Bb4+ 6.Nfd2 Nc6 7.O-O Nf6 8.e5 Nd5 9.Qf3 Be6 *
+
+[White "BertaSchnebel"]
+[Black "OliThink512"]
+1.d4 d5 2.e3 Nc6 3.c4 e5 4.cxd5 Qxd5 5.Nc3 Bb4 6.Bd2 Bxc3 7.bxc3 Nf6 8.c4 Qd6 9.d5 Ne7 *
+
+[White "Tinker"]
+[Black "OliThink512"]
+1.d4 d5 2.Nc3 Nf6 3.Bg5 h6 4.Bf4 g5 5.Be5 Nc6 6.Qd3 e6 7.O-O-O Bd6 8.Bxd6 cxd6 9.Nh3 a6 *
+
+[White "Phalanx"]
+[Black "OliThink512"]
+1.d4 e6 2.c4 d5 3.Nc3 Nc6 4.e3 Nf6 5.Nf3 a6 6.Ne5 Nxe5 7.dxe5 Nd7 8.cxd5 Nxe5 9.Qa4+ Bd7 *
+
+[White "Glaurung"]
+[Black "OliThink513"]
+1.d4 e6 2.c4 d5 3.Nc3 Be7 4.Nf3 Nf6 5.Bf4 O-O 6.e3 Nbd7 7.a3 c5 8.cxd5 Nxd5 9.Nxd5 exd5 *
+
+[White "Crafty"]
+[Black "OliThink512"]
+1.d4 e6 2.c4 Nf6 3.Nc3 Bb4 4.Qc2 O-O 5.a3 Bxc3+ 6.Qxc3 d6 7.Bg5 Nbd7 8.f3 d5 9.e3 c6 *
+
+[White "Crafty"]
+[Black "OliThink512"]
+1.d4 e6 2.e4 d5 3.exd5 exd5 4.Nf3 Nf6 5.Bd3 Bd6 6.O-O O-O 7.Bg5 h6 8.Bh4 Re8 9.Qd2 Nc6 *
+
+[White "Crafty"]
+[Black "OliThink512"]
+1.d4 e6 2.e4 d5 3.exd5 Qxd5 4.Nf3 Nf6 5.c4 Bb4+ 6.Bd2 Qe4+ 7.Be2 Bxd2+ 8.Nbxd2 Qf4 9.O-O O-O *
+
+[White "Phalanx"]
+[Black "OliThink512"]
+1.d4 e6 2.e4 f6 3.Nc3 Bb4 4.a3 Bxc3+ 5.bxc3 d5 6.Bd3 dxe4 7.Bxe4 f5 8.Bd3 Nf6 9.Nf3 c5 *
+
+[White "Glaurung"]
+[Black "OliThink515"]
+1.d4 Nf6 2.c4 d6 3.Nc3 Nbd7 4.e4 e5 5.Nf3 Be7 6.Be2 O-O 7.O-O c6 8.Qc2 a6 9.Rd1 b5 *
+
+[White "Crafty"]
+[Black "OliThink513"]
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.f3 d5 5.a3 Be7 6.e4 dxe4 7.fxe4 e5 8.d5 Bc5 9.Bg5 h6 *
+
+[White "Glaurung"]
+[Black "OliThink512"]
+1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.e3 Nbd7 5.Nc3 a6 6.Be2 dxc4 7.a4 b6 8.e4 Bb7 9.e5 Nd5 *
+
+[White "Crafty"]
+[Black "OliThink514"]
+1.d4 Nf6 2.c4 g6 3.Nc3 c5 4.Nf3 cxd4 5.Nxd4 Bg7 6.Nc2 Nc6 7.e4 d6 8.Be2 O-O 9.O-O Nd7 *
+
+[White "Glaurung"]
+[Black "OliThink513"]
+1.d4 Nf6 2.c4 g6 3.Nc3 c5 4.dxc5 Na6 5.g3 Nxc5 6.Bg2 Bg7 7.Bd2 d6 8.Rc1 O-O 9.Nh3 Nfe4 *
+
+[White "Phalanx"]
+[Black "OliThink512"]
+1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 c5 5.d5 d6 6.Bg2 b5 7.cxb5 Qa5+ 8.Nfd2 Qxb5 9.Nc3 Qa6 *
+
+[White "Glaurung"]
+[Black "OliThink513"]
+1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 O-O 5.Bg2 d6 6.O-O Nc6 7.Nc3 e5 8.d5 Ne7 9.Qb3 c5 *
+
+[White "Glaurung"]
+[Black "OliThink516"]
+1.d4 Nf6 2.Nf3 g6 3.e3 Bg7 4.Nbd2 b6 5.Bc4 O-O 6.Qe2 c5 7.c3 Bb7 8.O-O d5 9.Bd3 Ne4 *
+
+[White "Glaurung"]
+[Black "OliThink516"]
+1.d4 Nf6 2.Nf3 g6 3.e3 Bg7 4.Nbd2 b6 5.Bc4 O-O 6.Qe2 c5 7.c3 Bb7 8.O-O d5 9.Bd3 Ne4 *
+
+[White "Glaurung"]
+[Black "OliThink513"]
+1.d4 Nf6 2.Nf3 g6 3.c4 Bg7 4.g3 O-O 5.Bg2 d6 6.O-O Nc6 7.Nc3 Rb8 8.h3 a6 9.Bg5 h6 *
+
+[White "Phalanx"]
+[Black "OliThink512"]
+1.d4 Nf6 2.Nf3 g6 3.Bf4 Bg7 4.e3 d6 5.h3 O-O 6.Be2 c5 7.c3 Qb6 8.Qb3 Be6 9.Qxb6 axb6 *
+
+[White "Glaurung"]
+[Black "OliThink513"]
+1.e4 c5 2.a3 g6 3.b4 Bg7 4.c3 d5 5.exd5 Qxd5 6.Nf3 Nf6 7.Be2 O-O 8.c4 Qd8 9.Bb2 b6 *
+
+[White "Crafty"]
+[Black "OliThink512"]
+1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 d6 6.Be3 e5 7.Qd2 Nge7 8.f4 O-O 9.Nf3 exf4 *
+
+[White "Glaurung"]
+[Black "OliThink513"]
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Bg5 e6 7.Qd2 a6 8.O-O-O h6 9.Be3 Be7 *
+
+[White "Crafty"]
+[Black "OliThink512"]
+1.e4 c5 2.Nf3 e6 3.Be2 Nf6 4.e5 Nd5 5.O-O Nc6 6.Re1 d6 7.Bb5 Bd7 8.exd6 Bxd6 9.Nc3 O-O *
+
+[White "Phalanx"]
+[Black "OliThink512"]
+1.e4 c6 2.d4 d5 3.e5 Bf5 4.Nf3 Qb6 5.Be2 e6 6.O-O c5 7.c3 Nc6 8.Re1 Rc8 9.Qa4 f6 *
+
+[White "Glaurung"]
+[Black "OliThink513"]
+1.e4 c6 2.d4 d5 3.Nc3 a6 4.f3 e6 5.Be3 b5 6.Qd2 Nd7 7.Bd3 Nb6 8.Nge2 Nf6 9.O-O Be7 *
+
+[White "UkrainianMachin"]
+[Black "OliThink512"]
+1.e4 e5 2.Nf3 Nf6 3.Nxe5 Qe7 4.d4 d6 5.Nf3 Nxe4 6.Be2 g5 7.O-O f5 8.Re1 g4 9.Ng5 d5 *
+
+[White "Crafty"]
+[Black "OliThink515"]
+1.e4 e6 2.b3 d5 3.Bb2 a6 4.Qe2 d4 5.c3 c5 6.f4 Nc6 7.Nf3 Nge7 8.Na3 Ng6 9.g3 e5 *
+
+[White "Glaurung"]
+[Black "OliThink512"]
+1.e4 e6 2.d4 d5 3.c3 c5 4.exd5 Qxd5 5.Nf3 cxd4 6.cxd4 Nf6 7.Nc3 Qa5 8.Be2 Be7 9.O-O Bd7 *
+
+[White "Crafty"]
+[Black "OliThink516"]
+1.e4 e6 2.d4 d5 3.Nc3 h6 4.Bd3 Nc6 5.Nf3 Nb4 6.Be2 Nf6 7.e5 Ne4 8.a3 Nxc3 9.bxc3 Nc6 *
+
+[White "Crafty"]
+[Black "OliThink516"]
+1.e4 e6 2.d4 d5 3.Nc3 h6 4.Bd3 Nc6 5.Nf3 Nb4 6.Be2 Nf6 7.e5 Ne4 8.a3 Nxc3 9.bxc3 Nc6 *
+
+[White "Crafty"]
+[Black "OliThink512"]
+1.e4 e6 2.f4 d5 3.e5 c5 4.Nf3 Nc6 5.d4 cxd4 6.Nxd4 Bc5 7.Nxc6 bxc6 8.Qg4 g6 9.Nd2 Qb6 *
+
+[White "Glaurung"]
+[Black "OliThink512"]
+1.Nf3 c5 2.Nc3 d5 3.e3 Nf6 4.b3 e6 5.Bb5+ Bd7 6.O-O Bd6 7.d4 O-O 8.dxc5 Bxb5 9.Nxb5 Bxc5 *
+
+[White "Crafty"]
+[Black "OliThink512"]
+1.Nf3 d5 2.d3 Nf6 3.Nbd2 Bf5 4.g3 e6 5.Bg2 h6 6.O-O Nc6 7.c3 Be7 8.b4 O-O 9.Bb2 Bh7 *
+
+[White "Crafty"]
+[Black "OliThink512"]
+1.Nf3 Nf6 2.c4 c5 3.Nc3 Nc6 4.d4 cxd4 5.Nxd4 e6 6.g3 Qb6 7.Nb3 d5 8.cxd5 Nxd5 9.Nxd5 exd5 *
+
+[White "Crafty"]
+[Black "OliThink516"]
+1.Nf3 Nf6 2.c4 Nc6 3.Nc3 e6 4.e4 e5 5.Be2 Bc5 6.Nxe5 Nxe5 7.d4 Bb4 8.dxe5 Nxe4 9.Qd4 Nxc3 *
+
+[White "Crafty"]
+[Black "OliThink516"]
+1.Nf3 Nf6 2.c4 Nc6 3.Nc3 e6 4.e4 e5 5.Be2 Bc5 6.Nxe5 Nxe5 7.d4 Bb4 8.dxe5 Nxe4 9.Qd4 Nxc3 *
+
+[White "Crafty"]
+[Black "OliThink514"]
+1.Nf3 Nf6 2.d4 g6 3.Nbd2 d5 4.e3 Bg7 5.Be2 O-O 6.O-O Bg4 7.h3 Bf5 8.Ne5 Nbd7 9.f4 Ne4 *
+
+[White "Crafty"]
+[Black "OliThink513"]
+1.Nf3 Nf6 2.e3 c5 3.b3 g6 4.Bb2 Bg7 5.d4 cxd4 6.Nxd4 Nc6 7.Be2 Nxd4 8.Bxd4 d6 9.O-O O-O *
+
+[White "Crafty"]
+[Black "OliThink513"]
+1.Nf3 Nf6 2.g3 c6 3.Bg2 d5 4.d3 Nbd7 5.c4 dxc4 6.dxc4 g6 7.O-O Bg7 8.Qc2 O-O 9.Rd1 Qa5 *
+
+[White "Phalanx"]
+[Black "OliThink512"]
+1.Nf3 Nf6 2.Nc3 d6 3.d4 g6 4.e4 Bg7 5.Be2 c5 6.d5 O-O 7.a4 e6 8.dxe6 Bxe6 9.Ng5 Nc6 10.O-O Bc8 *

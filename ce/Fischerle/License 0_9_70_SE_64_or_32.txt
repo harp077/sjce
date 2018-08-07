@@ -1,0 +1,20 @@
+
+		Quite Preliminary License
+
+Terms and conditions of usage
+-----------------------------
+
+This distribution of the chess engine Fischerle comes "as it is",
+without any guarantee whatsoever. Usage is at our own risk!
+
+Please feel free to employ it for your own entertainment purposes and
+to test it thoroughly. 
+
+Your feedback is highly appreciated! Please get in touch with Fischerle's
+author and copyright holder
+
+	 Dr. Roland Stuckardt
+	 D-60433 Frankfurt am Main
+	 Germany
+	 roland@stuckardt.de
+	 www.stuckardt.de 

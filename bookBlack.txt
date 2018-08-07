@@ -1,0 +1,130 @@
+#e2e4.e7e5 g1f3.b8c6 f1c4.g8f6 f3g5.d7d5 e4d5.c6a5 c4b5.c7c6 d5c6.b7c6 b5e2.h7h6 g5f3.e5e4 f3e5.f8d6 d2d4.e4d3 e5d3.d8c7 b2b3.e8g8 c1b2.f6e4 b1c3.f7f5 g2g3.c8a6 e1g1.a8d8
+#e2e4.e7e5 g1f3.b8c6 f1c4.g8f6 d2d3.d7d5 e4d5.f6d5 e1g1.f8c5 c1g5.f7f6 c4d5.d8d5 b1c3.d5f7
+#e2e4.e7e5 g1f3.b8c6 f1c4.g8f6 d1e2.f8c5 f3g5.c6d4 c4f7.e8f8 e2c4.d8e7 b2b4.c5b4 a2a3.b4c5
+#e2e4.e7e5 g1f3.b8c6 f1c4.f8c5 c2c3.g8f6 d2d4.e5d4 c3d4.c5b4 c1d2.b4d2 b1d2.d7d5 e4d5.f6d5 d1b3.c6a5
+#e2e4.e7e5 g1f3.b8c6 f1c4.f8c5 c2c3.g8f6 d2d4.e5d4 c3d4.c5b4 c1d2.b4d2 b1d2.d7d5 e4d5.f6d5 e1g1.e8g8 f3e5.c6e5 d4e5.f8e8 d2f3.c8e6 d1b3.d5b6
+#e2e4.e7e5 g1f3.b8c6 f1c4.f8c5 c2c3.g8f6 d2d4.e5d4 c3d4.c5b4 c1d2.b4d2 b1d2.d7d5 e4d5.f6d5 e1g1.e8g8 d1b3.c6a5 b3a4.a5c4 a4c4.c8e6 c4b5.d5b6
+#e2e4.e7e5 g1f3.b8c6 f1c4.f8c5 c2c3.g8f6 d2d4.e5d4 c3d4.c5b4 c1d2.b4d2 b1d2.d7d5 e4d5.f6d5 e1g1.e8g8 d1b3.c6a5 b3d3.a5c4 d3c4.c8e6
+e2e4.e7e5 g1f3.b8c6 f1c4.f8c5 c2c3.g8f6 d2d4.e5d4 c3d4.c5b4 c1d2.f6e4 d2b4.c6b4 c4f7.e8f7 d1b3.d7d5 b3b4.c7c6 e1g1.d8b6 b4a3.h8f8 b1c3.f7g8 c3e4.d5e4 f3g5.c8f5
+e2e4.e7e5 g1f3.b8c6 f1c4.f8c5 c2c3.g8f6 b2b4.c5b6 d2d3.d7d6 a2a4.a7a6
+e2e4.e7e5 g1f3.b8c6 f1c4.f8c5 b1c3.g8f6 d2d3.d7d6 c1g5.h7h6 g5f6.d8f6 c3d5.f6d8 c2c3.a7a6 d3d4.e5d4 c3d4.c5a7
+e2e4.e7e5 g1f3.b8c6 f1c4.f8c5 b1c3.g8f6 d2d3.d7d6 c1g5.h7h6 g5f6.d8f6 e1g1.e8g8
+e2e4.e7e5 g1f3.b8c6 f1c4.f8c5 b1c3.g8f6 d2d3.d7d6 c3a4.c5b6 a4b6.a7b6
+#Spanish (Ruy Lopez)
+e2e4.e7e5 g1f3.b8c6 f1b5.a7a6 b5a4.g8f6 e1g1.f6e4 d2d4.b7b5 a4b3.d7d5 d4e5.c8e6 c2c3.f8e7 f1e1.e8g8 f3d4.c6d4 c3d4.h7h6 f2f3.e4g5 b1c3.e7b4
+e2e4.e7e5 g1f3.b8c6 f1b5.a7a6 b5a4.g8f6 e1g1.f6e4 d2d4.b7b5 a4b3.d7d5 d4e5.c8e6 b1d2.f8e7 c2c3.e8g8 b3c2.f7f5 d2b3.d8d7 b3d4.c6d4 f3d4.c7c5 d4e6.d7e6 f2f3.e4g5 a2a4.g7g6 g1h1.e6c6 c1g5.f3f4 g5e7
+e2e4.e7e5 g1f3.b8c6 f1b5.a7a6 b5a4.g8f6 e1g1.f6e4 d2d4.b7b5 a4b3.d7d5 d4e5.c8e6 b1d2.f8e7 c2c3.e8g8 b3c2.f7f5 d2b3.d8d7 b3d4.c6d4 f3d4.c7c5 d4e6.d7e6 f2f3.e4g5 a2a4.g7g6 c1e3.e6c6 e3g5.e7g5 f3f4.g5e7
+e2e4.e7e5 g1f3.b8c6 f1b5.a7a6 b5a4.g8f6 e1g1.f6e4 d2d4.b7b5 a4b3.d7d5 d4e5.c8e6 b1d2.f8e7 c2c3.e8g8 b3c2.f7f5 d2b3.d8d7 b3d4.c6d4 f3d4.c7c5 d4e6.d7e6 f2f3.e4g5 a2a4.g7g6 d1e2.c5c4 f1e1.e6b6 g1h1.g5e6
+e2e4.e7e5 g1f3.b8c6 f1b5.a7a6 b5a4.g8f6 e1g1.f6e4 d2d4.b7b5 a4b3.d7d5 d4e5.c8e6 b1d2.f8e7 c2c3.e8g8 b3c2.f7f5 d2b3.d8d7 b3d4.c6d4 f3d4.c7c5 d4e6.d7e6 f2f3.e4g5 a2a4.g7g6 c1g5.e7g5 f3f4.g5e7 a4b5.a6b5 a1a8.f8a8
+e2e4.e7e5 g1f3.b8c6 f1b5.a7a6 b5a4.g8f6 e1g1.f6e4 d2d4.b7b5 a4b3.d7d5 d4e5.c8e6 b1d2.f8e7 c2c3.e8g8 b3c2.f7f5 d2b3.d8d7 f3d4.c6d4 c3d4.c7c5
+e2e4.e7e5 g1f3.b8c6 f1b5.a7a6 b5a4.g8f6 e1g1.f6e4 d2d4.b7b5 a4b3.d7d5 d4e5.c8e6 b1d2.f8e7 c2c3.e8g8 b3c2.f7f5 e5f6.e4f6 f1e1.e6g4
+e2e4.e7e5 g1f3.b8c6 f1b5.a7a6 b5a4.g8f6 e1g1.f6e4 d2d4.b7b5 a4b3.d7d5 d4e5.c8e6 b1d2.f8e7 c2c3.e8g8 b3c2.f7f5 f3d4.c6d4
+e2e4.e7e5 g1f3.b8c6 f1b5.a7a6 b5a4.g8f6 e1g1.f6e4 d2d4.b7b5 a4b3.d7d5 d4e5.c8e6 b1d2.f8e7 c2c3.e8g8 b3c2.f7f5 e5f6.e4f6 f3g5.e6g4 f2f3.g4c8 f1e1.d8d6
+e2e4.e7e5 g1f3.b8c6 f1b5.a7a6 b5a4.g8f6 e1g1.f6e4 d2d4.b7b5 a4b3.d7d5 d4e5.c8e6 b1d2.f8e7 c2c3.e8g8 b3c2.f7f5 e5f6.e4f6 d2b3.e6g4 d1d3.d8d6 c1g5.f6e4 g5e7.c6e7 b3d2.e4d2 d3h7.g8f7 f3g5.f7e8 f1e1.d6h6 h7h6.g7h6 g5h7.f8f4 f2f3.g4f3 g2g3.f4c4 h7f6.e8d8 e1e6.c4c6 e6c6.e7c6 g1f2.d8e7
+e2e4.e7e5 g1f3.b8c6 f1b5.a7a6 b5a4.g8f6 e1g1.f6e4 d2d4.b7b5 a4b3.d7d5 d4e5.c8e6 c1e3.f8e7 c2c3.d8d7 b1d2.a8d8 f1e1.e8g8 b3c2.e6f5
+e2e4.e7e5 g1f3.b8c6 f1b5.a7a6 b5a4.g8f6 e1g1.f6e4 d2d4.b7b5 a4b3.d7d5 d4e5.c8e6 c1e3.f8e7 d1e2.e4c5 a2a4.e8g8 a4b5.a6b5 a1a8.d8a8 e2b5.f8d8
+e2e4.e7e5 g1f3.b8c6 f1b5.a7a6 b5a4.g8f6 e1g1.f6e4 f1e1.e4c5 a4c6.d7c6 f3e5.f8e7 d2d4.c5e6 c1e3.e8g8 c2c4.f7f6 e5f3.f6f5 e3d2.f5f4
+#...Exchange
+e2e4.e7e5 g1f3.b8c6 f1b5.a7a6 b5c6.d7c6 b1c3.d8d6 d2d4.e5d4 f3d4.c8d7
+e2e4.e7e5 g1f3.b8c6 f1b5.a7a6 b5c6.d7c6 d2d3.f8d6
+e2e4.e7e5 g1f3.b8c6 f1b5.a7a6 b5c6.d7c6 e1g1.d8d6 d2d3.c6c5 b1d2.f7f6 d2c4.d6c6 a2a4.c8e6 b2b3.g8e7 c1e3.b7b6 c2c3.e7g6
+e2e4.e7e5 g1f3.b8c6 f1b5.a7a6 b5c6.d7c6 e1g1.d8d6 b1a3.c8e6 d1e2.e6g4
+e2e4.e7e5 g1f3.b8c6 f1b5.a7a6 b5c6.d7c6 f3e5.d8d4 e5d3.d4e4
+#Scotch
+e2e4.e7e5 g1f3.b8c6 d2d4.e5d4 f3d4.g8f6 d4c6.b7c6 e4e5.d8e7 d1e2.f6d5 c2c4.c8a6 b2b3.e8c8 g2g3.g7g5 c1b2.f8g7 b1d2.d5b4 d2f3.c6c5 f1g2.a6b7 a2a3.b4c6
+e2e4.e7e5 g1f3.b8c6 d2d4.e5d4 f3d4.g8f6 d4c6.b7c6 e4e5.d8e7 d1e2.f6d5 c2c4.c8a6
+e2e4.e7e5 g1f3.b8c6 d2d4.e5d4 f3d4.g8f6 d4c6.b7c6 e4e5.d8e7 d1e2.f6d5 b1c3.d5c3 b2c3.g7g6 c1b2.f8h6 g2g3.a8b8
+e2e4.e7e5 g1f3.b8c6 d2d4.e5d4 f3d4.g8f6 d4c6.b7c6 f1d3.d7d5 e4d5.c6d5 e1g1.f8e7 c2c4.e8g8
+e2e4.e7e5 g1f3.b8c6 d2d4.e5d4 f3d4.g8f6 d4c6.b7c6 f1d3.d7d5 e4d5.c6d5 e1g1.f8e7 b1c3.e8g8 c1g5.c7c5
+e2e4.e7e5 g1f3.b8c6 d2d4.e5d4 f1c4.g8f6 e4e5.d7d5 c4b5.f6e4 f3d4.c8d7 b5c6.b7c6 e1g1.f8c5 f2f3.e4g5 f3f4.g5e4 c1e3.d8b8 d1c1.c5d4 e3d4.c6c5 d4f2.d7b5
+e2e4.e7e5 g1f3.b8c6 d2d4.e5d4 f1c4.g8f6 e4e5.d7d5 c4b5.f6e4 f3d4.c8d7 b5c6.b7c6 e1g1.f8c5 f2f3.e4g5 c2c3.e8g8
+e2e4.e7e5 g1f3.b8c6 d2d3.g8f6 f1e2.d7d5 e4d5.f6d5 e1g1.c8f5 b1c3.f8e7
+#Four Knights
+e2e4.e7e5 g1f3.b8c6 b1c3.g8f6 f1b5.c6d4 b5a4.c7c6 f3e5.d7d5 d2d3.f8d6 f2f4.e8g8 e1g1.b7b5 a4b3.b5b4 c3a4.d4b3 a2b3.d5e4 d3d4.d8c7 d1e2.a7a5 c2c4.b4c3 b2c3.a8b8 a1b1.c6c5 d4c5.d6c5 a4c5.c7c5 c1e3.c5c7
+e2e4.e7e5 g1f3.b8c6 b1c3.g8f6 f1b5.c6d4 e1g1.d4b5 c3b5.c7c6
+e2e4.e7e5 g1f3.b8c6 b1c3.g8f6 d2d4.e5d4 f3d4.f8b4 d4c6.b7c6
+e2e4.e7e5 d2d3.d7d5
+e2e4.e7e5 f2f4.d7d5 e4d5.e5f4 g1f3.g8f6 f1b5.c7c6 d5c6.b7c6 b5c4.f6d5
+e2e4.e7e5 f2f4.d7d5 e4d5.e5f4 g1f3.g8f6 f1c4.f6d5 e1g1.c8e6 c4b3.f8e7 c2c4.d5b6 d2d4.b6c4 c1f4.c4b6 b3e6.f7e6 d1e2.b8c6 b1c3.c6d4 e2e4.d4f3 f1f3.e8g8 e4e6.g8h8
+e2e4.e7e5 b1c3.g8f6 f2f4.d7d5 f4e5.f6e4 d2d3.f8b4 d3e4.d8h4 e1e2.b4c3 b2c3.c8g4 g1f3.d5e4 d1d4.g4h5 e2e3.e4f3 g2f3.h4e1
+e2e4.e7e5 b1c3.g8f6 f1c4.f6e4 c3e4.d7d5 d2d4.d5c4 d4e5.d8d1 e1d1.b8c6 g1f3.c8f5 h1e1.e8c8 c1d2.f8e7
+e2e4.e7e5 b1c3.g8f6 g1f3.f8b4 f3e5.e8g8 f1e2.f8e8 e5d3.b4c3 d2c3.f6e4
+e2e4.e7e5 b1c3.g8f6 g1f3.f8b4 f1c4.e8g8 f3e5.d8e8
+e2e4.e7e5 b1c3.g8f6 g1f3.f8b4 d2d3.d7d5
+#
+e2e4.e7e5 d2d4.e5d4 g1f3.f8b4 c2c3.d4c3 b1c3.g8e7 d1d4.b4c3 d4c3.e8g8
+e2e4.e7e5 d2d4.e5d4 c2c3.d7d5 e4d5.d8d5 c3d4.b8c6
+e2e4.e7e5 d2d4.e5d4 d1d4.b8c6 d4e3.g8f6
+#e2e4.e7e5 d2d4.e5d4 d1d4.b8c6 b1d2.f8b4 b1d2.d7d5
+e2e4.e7e5 c2c3.d7d5
+#
+b1c3.d7d5 g1f3.g8f6 c3b5.a7a6 b5d4.c7c5 d4b3.c5c4 b3d4.d8c7 c2c3.e7e5 d4c2.b8c6
+b1c3.d7d5 e2e3.c7c5 f1b5.b8c6 g1h3.a7a6 b5c6.b7c6
+b1c3.d7d5 g2g3.d5d4 c3b5.g8f6 g1f3.c7c5
+#English
+c2c4.c7c5 g1f3.g8f6 b1c3.e7e6 g2g3.b8c6 f1g2.d7d5 c4d5.f6d5 e1g1.f8e7 d2d4.e8g8 c3d5.e6d5 d4c5.e7c5 c1g5.f7f6 g5d2.d8e7 a1c1.c8e6
+c2c4.c7c5 g1f3.g8f6 b1c3.e7e6 g2g3.b8c6 f1g2.d7d5 c4d5.f6d5 e1g1.f8e7 c3e4.e8g8 d2d3.b7b6
+c2c4.c7c5 g1f3.g8f6 b1c3.e7e6 g2g3.b8c6 d2d3.d7d5
+c2c4.c7c5 g1f3.g8f6 b1c3.e7e6 d2d4.c5d4 f3d4.f8c5
+c2c4.c7c5 g1f3.g8f6 b1c3.e7e6 e2e4.b8c6
+c2c4.c7c5 g1f3.g8f6 g2g3.d7d5 c4d5.f6d5 f1g2.b8c6 d2d4.c5d4
+c2c4.c7c5 b1c3.b8c6 g2g3.g7g6 f1g2.f8g7
+c2c4.c7c5 b2b3.g8f6 c1b2.e7e6 g1f3.f8e7
+c2c4.c7c5 e2e4.b8c6
+#g1f3.c7c5 e2e4.d7d6 d2d4.c5d4 f3d4.g8f6 b1c3.a7a6 c1e3.f6g4 e3g5.h7h6 g5h4.g7g5 h4g3.f8g7
+#g1f3.c7c5 e2e4.d7d6 d2d4.c5d4 f3d4.g8f6 b1c3.a7a6 f1e2.e7e6 f2f4.f8e7 e1g1.e8g8
+#g1f3.c7c5 e2e4.d7d6 d2d4.c5d4 f3d4.g8f6 b1c3.a7a6 f1e2.e7e6 e1g1.f8e7 f2f4.e8g8
+#g1f3.c7c5 e2e4.d7d6 d2d4.c5d4 f3d4.g8f6 b1c3.a7a6 f1e2.e7e6 c1g5.f8e7
+#g1f3.c7c5 g2g3.b8c6
+#g1f3.c7c5 c2c4.g8f6
+g1f3.g8f6 c2c4.c7c5
+g1f3.g8f6 d2d4.d7d5 c2c4.e7e6 g2g3.d5c4
+g1f3.g8f6 b1c3.d7d5
+g1f3.g8f6 e2e3.c7c5
+#QGA
+d2d4.d7d5 c2c4.d5c4 g1f3.e7e6 d1a4.c7c6 a4c4.g8f6 c1g5.b7b5 c4c2.c8b7 e2e4.b8d7
+d2d4.d7d5 c2c4.d5c4 g1f3.e7e6 d1a4.c7c6 a4c4.g8f6 c1e3.b8a6
+d2d4.d7d5 c2c4.d5c4 g1f3.e7e6 e2e4.b7b5 a2a4.c7c6 a4b5.c6b5 b2b3.c8b7 b3c4.b7e4 c4b5.g8f6 f1e2.b8d7 e1g1.f8e7 b1c3.e4b7 f3e5.d8c7
+d2d4.d7d5 c2c4.d5c4 e2e4.e7e5 g1f3.f8b4 b1c3.e5d4 f3d4.b8c6
+d2d4.d7d5 c2c4.d5c4 e2e4.e7e5 g1f3.f8b4 c1d2.b4d2 d1d2.e5d4 d2d4.g8f6
+d2d4.d7d5 c2c4.d5c4 g1f3.e7e6 e2e3.g8f6 f1c4.c7c5 e1g1.a7a6 c4b3.b7b5 a2a4.b5b4 b1d2.c8b7 e3e4.f8e7 e4e5.f6d7 d2c4.e8g8 b8c6
+d2d4.d7d5 c2c4.d5c4 g1f3.e7e6 e2e3.g8f6 f1c4.c7c5 e1g1.a7a6 d1e2.b7b5
+d2d4.d7d5 c2c4.d5c4 g1f3.e7e6 e2e3.g8f6 f1c4.c7c5 e1g1.a7a6 a2a4.b8c6
+d2d4.d7d5 c2c4.d5c4 g1f3.e7e6 e2e3.g8f6 f1c4.c7c5 e1g1.a7a6 d4c5.d8d1 f1d1.f8c5 b1d2.e8g8 c4e2.f8d8 b2b3.b7b6 c1b2.c8b7 d2c4.d8d1 a1d1.b8d7
+d2d4.d7d5 c2c4.d5c4 g1f3.e7e6 b1c3.a7a6
+d2d4.d7d5 c2c4.d5c4 d1a4.c7c6 a4c4.g8f6 b1c3.c8f5 g1f3.e7e6
+d2d4.d7d5 c2c4.d5c4 d1a4.c7c6 a4c4.g8f6 g1f3.c8f5
+#d2d4.d7d5 g1f3.b8c6 e2e3.c8g4 f1e2.e7e6 h2h3.g4h5 b1d2.g8f6 e1g1.f8e6 b2b3.e8g8
+#d2d4.d7d5 g1f3.b8c6 e2e3.c8g4 f1b5.g8f6
+d2d4.d7d5 g1f3.g8f6 e2e3.e7e6 c2c4
+d2d4.d7d5 c1f4.g8f6 e2e3.c7c5 d4c5.b8c6 f1b5.e7e6 b2b4.a7a5 c2c3.c8d7 g1f3.a5b4 b5c6.d7c6 c3b4.b7b6 f3e5.c6a4 d1d4.b6c5 b4c5.f6e4 e5f3.d8a5 b1d2.a4b5 f4d6.f8d6 d4g7.d6e5 g7e5.h8g8 g2g3.e4c5 e5f6.g8g6 f6h8.e8e7 h8h7.g6f6 a1b1.f6f3
+d2d4.d7d5 c1f4.g8f6 e2e3.c7c5 d4c5.b8c6 f1b5.e7e6 b2b4.a7a5 c2c3.c8d7 g1f3.a5b4 b5c6.d7c6 c3b4.b7b6 f3e5.c6a4 d1d4.b6c5 b4c5.f6e4 e5f3.d8a5 b1d2.a4b5 f4d6.f8d6 d4g7.d6e5 g7e5.h8g8 g2g3.e4c5 e5f6.g8g6 f6h8.e8e7 h8h7.g6f6 h7h4.c5e4 a1b1.a8c8 a2a4.b5a6 b1d1.c8c2 g3g4.a5c3 h1g1.c2c1
+d2d4.d7d5 c1f4.g8f6 e2e3.c7c5 d4c5.b8c6 f1b5.e7e6 b2b4.a7a5 c2c3.c8d7 g1f3.a5b4 b5c6.d7c6 c3b4.b7b6 f3e5.c6a4 d1d4.b6c5 b4c5.f6e4 e5f3.d8a5 b1d2.a4b5 f4d6.f8d6 d4g7.d6e5 g7e5.h8g8 h1g1.e4c5 e5d6.a5c3 a1b1.c5d3
+d2d4.d7d5 c1f4.g8f6 e2e3.c7c5 d4c5.b8c6 f1b5.e7e6 b2b4.a7a5 c2c3.c8d7 g1f3.a5b4 b5c6.d7c6 c3b4.b7b6 f3e5.c6a4 d1d4.b6c5 b4c5.f6e4 e5f3.d8a5 b1d2.a4b5 f4d6.f8d6 d4g7.d6e5 g7e5.h8g8 e5f6.c5d3 e1e2.d3b4
+#d2d4.d7d5 c1f4.g8f6 e2e3.c7c5 d4c5.d8a5 b1c3.a5c5 f4b8.a8b8 f1b5.c8d7 b5d7.e8d7 g1f3.e7e6 e1g1.f8d6 f3d4.h7h5
+d2d4.d7d5 e2e3.g8f6 f1d3.b8c6
+d2d4.d7d5 e2e3.g8f6 b1c3.e7e6 g2g3.c7c5
+d2d4.d7d5 c2c3.c7c5
+d2d4.d7d5 c1g5.c7c6 e2e3.c8f5 f1d3.f5d3 d1d3.d8b6 b1d2.e7e6 g1f3.f8e7 g5f4.g8f6 e1g1.b8d7 c2c4.b6a6 f1c1.e8g8
+d2d4.d7d5 b1d2.g8f6 e2e3.c7c5 d4c5.d8a5 c2c3.a5c5 g1f3.b8c6
+g2g3.e7e5 f1g2.d7d5 d2d3.g8f6 g1f3.f8d6 e1g1.e8g8
+f2f4.d7d5 g1f3.g7g6 g2g3.f8g7 f1g2.g8f6 e1g1.e8g8 d2d3.c7c5 c2c3.b7b6
+f2f4.d7d5 g1f3.g7g6 e2e3.f8g7 f1e2.g8f6 e1g1.e8g8 d1e1.c7c5
+f2f4.d7d5 g1f3.g7g6 d2d4.f8g7 e2e3.g8f6 f1d3.e8g8 b1c3.c7c5 d4c5.b8d7
+e2e3.e7e5 b1c3.g8f6
+e2e3.e7e5 d1g4.d7d5
+e2e3.e7e5 c2c3.d7d5 g1f3.e5e4 f3e5.f8d6 d2d4.e4d3
+e2e3.e7e5 c2c3.d7d5 d2d4.e5d4 d1d4.c7c5 d4a4.f8d7
+b2b4.e7e5
+#Unusuals
+a2a3.e7e5
+a2a4.e7e5
+c2c3.e7e5
+d2d3.d7d5
+f2f3.e7e5
+f2f4.d7d5
+g2g4.e7e5
+h2h3.e7e5
+h2h4.e7e5
+b1a3.e7e5
+g1h3.e7e5

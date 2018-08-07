@@ -1,0 +1,46 @@
+
+			Known Issues
+
+
+1. Fischerle's ponder mode, which used to work perfectly under Arena 3.0,
+does not seem to work properly under Arena 3.5, nor does it work in
+some alternative GUIs such as ChessGUI. This seems to be due to a UCI
+synchronization issue, but -- unfortunately -- the full reasons behind
+this are yet unknown.
+
+2. Fischerle possesses a comparatively big memory footprint, which is
+chiefly due to the relatively large number of bit masks employed for
+the configuration testings based on the underlying rotated bitboard
+position representation. Hence, if an insufficient amount of physical
+memory is supplied, paging will occur, resulting in a sharp decline
+of Fischerle's performance (node throughput). Thus, as a prerequisite
+of obtaining meaningful engine test results, Fischerle should be run
+in an environment that adequately cares for its memory requirement,
+which, of course, depends as well partly upon the assigned hash table
+size. If, e. g., the hash table space is set to 256 MB, Fischerle should
+be fine with a physical memory assignment of  1400 MB -- see the "-Xms"
+and "-Xmx" parameters in the .bat startup command.
+
+3. Since Fischerle is a Java chess engine, its performance depends as
+well upon the particular Java implementation (JVM) installed on the
+evaluation machine. It has been observed that Fischerle's actual
+performance significantly varies depending upon the particular
+evaluation environment. Presumably, this issue can not be completely
+eliminated; at least, one should try to do one's best to employ the
+Java implementation best suited for the particular test platform,
+and -- of course -- to keep it up to date, since the latest version
+typically constitutes the most efficient one. 
+
+
+Thus, if you observe a sharp drop in performance after a switch to
+another testing system, please check whether Fischerle yet obtains
+the physical memory it requires, and whether this other computer
+runs an up-to-date Java implementation that is best suited to the
+particular system environment. This proves to be vital for obtaining
+meaningful test results!
+
+
+Roland		           Frankfurt am Main, March 25th, 2016
+
+roland@stuckardt.de
+www.stuckardt.de/index.php/schachengine-fischerle.html
