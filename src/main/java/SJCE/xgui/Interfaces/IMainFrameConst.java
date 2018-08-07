@@ -1,11 +1,11 @@
-package SJCE;
+package SJCE.xgui.Interfaces;
 
 
 public interface IMainFrameConst {
     
     // const = public static final by default
     
-    public static String [] selectEnginesArray = {
+    String [] selectEnginesArray = {
         "Human",
         "Alf",
         "Animats", 
@@ -52,7 +52,7 @@ public interface IMainFrameConst {
         "Ziggy"
     };  
     
-    public static String [] selectBoardThemeFig = {
+    String [] selectBoardThemeFig = {
         "alpha",
         "adventure",
         //"berlin",
@@ -91,7 +91,7 @@ public interface IMainFrameConst {
         "xboard"
     };
     
-    public static String [] selectBoardThemeFon = {
+    String [] selectBoardThemeFon = {
         "blue", 
         "brown",
         //"blue-green",
@@ -125,12 +125,12 @@ public interface IMainFrameConst {
         "wood-lite"
     }; 
     
-    public static String [] selectEngineColor = {
+    String [] selectEngineColor = {
         "black", 
         "white"
     }; 
     
-    public static String [] arrayDepth = {
+    String [] arrayDepth = {
         //"1", 
         "2",
         "3",
@@ -142,7 +142,7 @@ public interface IMainFrameConst {
         "9"
     };
     
-    public static final int[] SQUARES = {
+    int[] SQUARES = {
       56, 57, 58, 59, 60, 61, 62, 63,
       48, 49, 50, 51, 52, 53, 54, 55,
       40, 41, 42, 43, 44, 45, 46, 47,
