@@ -63,6 +63,7 @@
                         </manifest>
                         <manifestEntries>
                             <Version>${buildNumber}</Version>
+                            <SplashScreen-Image>SJCE/img/sjce-130x87.png</SplashScreen-Image>
                         </manifestEntries>
                     </archive>
                 </configuration>

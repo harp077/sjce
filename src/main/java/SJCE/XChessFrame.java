@@ -2,8 +2,6 @@ package SJCE;
 
 import SJCE.xgui.Interfaces.IChessContext;
 import SJCE.Cfg.AppCfgPref;
-//import SJCE.Cfg.AppCfgProperties;
-//import SJCE.Cfg.AppCfgXerces;
 import SJCE.Cfg.BoardThemeSelect;
 import SJCE.more.Actions;
 import SJCE.more.Donate;
@@ -37,11 +35,12 @@ import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 import java.awt.Image;
+import java.util.Arrays;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JTextArea;
 
-public class XChessFrame extends javax.swing.JFrame implements IChessContext {
+public class XChessFrame extends JFrame implements IChessContext, IMainFrameConst {
     public static ChessClock chessClock;
     public static MoveListUI moveListUI;
     public static BoardUI boardUI;
@@ -59,148 +58,6 @@ public class XChessFrame extends javax.swing.JFrame implements IChessContext {
     public static EngineAgent blackEngineAgent;  
     public static EngineAgentExt whiteEngineAgentExt;
     public static EngineAgentExt blackEngineAgentExt;      
-    public static String [] selectEnginesArray = {
-        "Human",
-        "Alf",
-        "Animats", 
-        "ArabianKnight",
-        "Bagatur",
-        "BremboCE",
-        "Calculon",
-        "Carballo",
-        "CaveChess",
-        "Chess22k",        
-        "CupCake",
-        "Cuckoo",
-        "ChessBotX",        
-        "DeepBrutePos",
-        //"Detroid",
-        "Eden",
-        //"FairyPrincess",
-        "Fischerle",
-        "Flux",
-        "Frittle",
-        "FrankWalter",
-        "Gladiator",
-        "GNU Chess",
-        "Jchess",
-        "Javalin",
-        "jChecs",
-        //"KennyClassIQ",
-        "Kasparov",
-        "KingsOut",
-        "Koedem",
-        //"Krudo",
-        "Magnum",
-        "Mediocre",
-        "OliThink",
-        "Phoenix",
-        "Presbyter",
-        "Pulse",
-        "Rival",
-        "Rumney",
-        "Talvmenni",
-        "Tiffanys",
-        "Tri-OS",
-        "Unidexter",
-        "Ziggy"
-    };    
-    public static String [] selectBoardThemeFig = {
-        "alpha",
-        "adventure",
-        //"berlin",
-        //"blue-white",
-        "condal",
-        "cyan-red",
-        //"eyes",
-        //"fantasy",
-        //"gothic",
-        "green-black",        
-        //"grey-yellow",
-        "harlequin",
-        "kingdom",
-        "leipzig",
-        //"line",
-        "lucena",
-        "magnetic",
-        //"mark",
-        //"maya",
-        "medieval",
-        "merida",
-        //"motif",
-        //"modern-1",
-        //"modern-2",
-        "smart",
-        "usual",
-        //"utrecht",
-        //"ua-wb",        
-        //"ua-bw",
-        //"ua-bb",        
-        "white-black",
-        "white-yellow",
-        "white-green",
-        "yellow-black",        
-        "yellow-green",
-        "xboard"
-    };
-    public static String [] selectBoardThemeFon = {
-        "blue", 
-        "brown",
-        //"blue-green",
-        "canvas",        
-        "cyan-magenta",
-        "cyan-white",
-        "gnu-wood",          
-        "gnu-marble",         
-        "green",
-        "green-white",        
-        "greenwood-lite",
-        "greenwood-dark",        
-        "magenta",
-        "magenta-white",        
-        "olive-dark",
-        "olive-lite",
-        //"olive-white",
-        "orange-dark",
-        "orange-lite",
-        "orange-white",
-        "pink",
-        "rainbow-lite",
-        "rainbow-dark",         
-        "sea", 
-        "sea-green",
-        "sea-white", 
-        //"violet-green",
-        //"violet-white",        
-        "wood-dark", 
-        "wood-medium",
-        "wood-lite"
-    }; 
-    public static String [] selectEngineColor = {
-        "black", 
-        "white"
-    }; 
-    public static String [] arrayDepth = {
-        //"1", 
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9"
-    };
-    public static final int[] SQUARES = {
-      56, 57, 58, 59, 60, 61, 62, 63,
-      48, 49, 50, 51, 52, 53, 54, 55,
-      40, 41, 42, 43, 44, 45, 46, 47,
-      32, 33, 34, 35, 36, 37, 38, 39,
-      24, 25, 26, 27, 28, 29, 30, 31,
-      16, 17, 18, 19, 20, 21, 22, 23,
-       8,  9, 10, 11, 12, 13, 14, 15,
-       0,  1,  2,  3,  4,  5,  6,  7,  
-    };
     public static final int borderPanelSize=415;
     public static final int boardUISize=400;
     //public static EngineIO engineIO;
@@ -215,7 +72,8 @@ public class XChessFrame extends javax.swing.JFrame implements IChessContext {
         this.setTitle(sjceTitle);
         ImageIcon icone = new ImageIcon(getClass().getResource("/SJCE/img/SubFrameIcon.png"));
         this.setIconImage(icone.getImage());
-        this.selectCE.add("Human");
+        this.selectCE.addAll(Arrays.asList(this.selectEnginesArray));
+        /*this.selectCE.add("Human");
         this.selectCE.add("Alf");        
         this.selectCE.add("Animats");
         this.selectCE.add("ArabianKnight");
@@ -258,7 +116,7 @@ public class XChessFrame extends javax.swing.JFrame implements IChessContext {
         this.selectCE.add("Tiffanys");
         this.selectCE.add("Tri-OS");        
         this.selectCE.add("Unidexter");
-        this.selectCE.add("Ziggy");
+        this.selectCE.add("Ziggy");*/
             //bMode.setVisible(false);
         //mrKenny.setVisible(false);
         //mrCalculon.setVisible(false);
