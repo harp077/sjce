@@ -88,12 +88,12 @@
                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
                   </AuxValues>
                   <SubComponents>
-                    <MenuItem class="javax.swing.JRadioButtonMenuItem" name="mTime5">
+                    <MenuItem class="javax.swing.JRadioButtonMenuItem" name="mTime05">
                       <Properties>
                         <Property name="text" type="java.lang.String" value="5"/>
                       </Properties>
                       <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mTime5ActionPerformed"/>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mTime05ActionPerformed"/>
                       </Events>
                       <AuxValues>
                         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>

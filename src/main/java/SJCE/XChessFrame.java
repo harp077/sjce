@@ -39,6 +39,7 @@ import java.awt.Image;
 import java.util.Arrays;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.ButtonGroup;
 import javax.swing.JTextArea;
 
 public class XChessFrame extends JFrame implements IChessContext, IMainFrameConst {
@@ -67,7 +68,9 @@ public class XChessFrame extends JFrame implements IChessContext, IMainFrameCons
     //public static JLabel ceLabel=new JLabel();
     public ImageIcon FrameIcon = new ImageIcon(getClass().getResource("/SJCE/img/SubFrameIcon.png"));
     public static final String sjceTitle="SJCE = Strong Java Chess Engines, build 08.08.18";
-    public static LogShow logFrame; 
+    public static LogShow logFrame;
+    public ButtonGroup mDepthRadioGroup = new ButtonGroup();
+    public ButtonGroup mTimeRadioGroup  = new ButtonGroup();
     
     public XChessFrame() {
         initComponents();
@@ -107,7 +110,21 @@ public class XChessFrame extends JFrame implements IChessContext, IMainFrameCons
         //this.bAbout.setVisible(false); 
         //this.bLinks.setVisible(false);        
         this.outputArea.setEditable(false);
-        this.outputArea.append("Please, select chess engine and press New Game !");        
+        this.outputArea.append("Please, select chess engine and press New Game !");  
+        this.mDepthRadioGroup.add(this.mDepth2);
+        this.mDepthRadioGroup.add(this.mDepth3);
+        this.mDepthRadioGroup.add(this.mDepth4);
+        this.mDepthRadioGroup.add(this.mDepth5);
+        this.mDepthRadioGroup.add(this.mDepth6);
+        this.mDepthRadioGroup.add(this.mDepth7);
+        this.mDepthRadioGroup.add(this.mDepth8);
+        this.mDepthRadioGroup.add(this.mDepth9);
+        this.mTimeRadioGroup.add(this.mTime05);
+        this.mTimeRadioGroup.add(this.mTime10);
+        this.mTimeRadioGroup.add(this.mTime15);
+        this.mTimeRadioGroup.add(this.mTime20);
+        this.mTimeRadioGroup.add(this.mTime25);
+        this.mTimeRadioGroup.add(this.mTime30);
     }
     
     public void MixerInit () {
@@ -411,7 +428,7 @@ public class XChessFrame extends JFrame implements IChessContext, IMainFrameCons
         mTimeMenu = new javax.swing.JMenu();
         mUseClock = new javax.swing.JCheckBoxMenuItem();
         mTime = new javax.swing.JMenu();
-        mTime5 = new javax.swing.JRadioButtonMenuItem();
+        mTime05 = new javax.swing.JRadioButtonMenuItem();
         mTime10 = new javax.swing.JRadioButtonMenuItem();
         mTime15 = new javax.swing.JRadioButtonMenuItem();
         mTime20 = new javax.swing.JRadioButtonMenuItem();
@@ -838,13 +855,13 @@ public class XChessFrame extends JFrame implements IChessContext, IMainFrameCons
         mTime.setIcon(new javax.swing.ImageIcon(getClass().getResource("/SJCE/img/16x16/calendar_select_day.png"))); // NOI18N
         mTime.setText("Set Time (min)");
 
-        mTime5.setText("5");
-        mTime5.addActionListener(new java.awt.event.ActionListener() {
+        mTime05.setText("5");
+        mTime05.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                mTime5ActionPerformed(evt);
+                mTime05ActionPerformed(evt);
             }
         });
-        mTime.add(mTime5);
+        mTime.add(mTime05);
 
         mTime10.setText("10");
         mTime10.addActionListener(new java.awt.event.ActionListener() {
@@ -1198,9 +1215,9 @@ public class XChessFrame extends JFrame implements IChessContext, IMainFrameCons
         borderPanel.add(boardUI, BorderLayout.CENTER);
     }//GEN-LAST:event_mChangeSkinActionPerformed
 
-    private void mTime5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mTime5ActionPerformed
+    private void mTime05ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mTime05ActionPerformed
         aktion.changeTime(5);
-    }//GEN-LAST:event_mTime5ActionPerformed
+    }//GEN-LAST:event_mTime05ActionPerformed
 
     private void mTime10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mTime10ActionPerformed
         aktion.changeTime(10);
@@ -1523,12 +1540,12 @@ public class XChessFrame extends JFrame implements IChessContext, IMainFrameCons
     private javax.swing.JMenuItem mSendBlack;
     private javax.swing.JMenuItem mSendWhite;
     public static javax.swing.JMenu mTime;
+    public static javax.swing.JRadioButtonMenuItem mTime05;
     public static javax.swing.JRadioButtonMenuItem mTime10;
     public static javax.swing.JRadioButtonMenuItem mTime15;
     public static javax.swing.JRadioButtonMenuItem mTime20;
     public static javax.swing.JRadioButtonMenuItem mTime25;
     public static javax.swing.JRadioButtonMenuItem mTime30;
-    public static javax.swing.JRadioButtonMenuItem mTime5;
     private javax.swing.JMenu mTimeMenu;
     public static javax.swing.JMenuItem mUndoLast;
     public static javax.swing.JCheckBoxMenuItem mUseClock;

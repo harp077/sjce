@@ -102,87 +102,31 @@ public class Actions {
     }
 
     public static void changeDepth(int dd) {
-        frame.mDepth2.setSelected(false);
-        frame.mDepth3.setSelected(false);
-        frame.mDepth4.setSelected(false);
-        frame.mDepth5.setSelected(false);
-        frame.mDepth6.setSelected(false);
-        frame.mDepth7.setSelected(false);
-        frame.mDepth8.setSelected(false);
-        frame.mDepth9.setSelected(false);
+        frame.mDepthRadioGroup.clearSelection();
+        aktion.Depth = dd;
         switch (dd) {
-            case 2:
-                aktion.Depth = 2;
-                frame.mDepth2.setSelected(true);
-                break;
-            case 3:
-                aktion.Depth = 3;
-                frame.mDepth3.setSelected(true);
-                break;
-            case 4:
-                aktion.Depth = 4;
-                frame.mDepth4.setSelected(true);
-                break;
-            case 5:
-                aktion.Depth = 5;
-                frame.mDepth5.setSelected(true);
-                break;
-            case 6:
-                aktion.Depth = 6;
-                frame.mDepth6.setSelected(true);
-                break;
-            case 7:
-                aktion.Depth = 7;
-                frame.mDepth7.setSelected(true);
-                break;
-            case 8:
-                aktion.Depth = 8;
-                frame.mDepth8.setSelected(true);
-                break;
-            case 9:
-                aktion.Depth = 9;
-                frame.mDepth9.setSelected(true);
-                break;
+            case 2: frame.mDepth2.setSelected(true); break;
+            case 3: frame.mDepth3.setSelected(true); break;
+            case 4: frame.mDepth4.setSelected(true); break;
+            case 5: frame.mDepth5.setSelected(true); break;
+            case 6: frame.mDepth6.setSelected(true); break;
+            case 7: frame.mDepth7.setSelected(true); break;
+            case 8: frame.mDepth8.setSelected(true); break;
+            case 9: frame.mDepth9.setSelected(true); break;
         }
         bcomboDepth.setSelectedItem("" + aktion.Depth);
-        //if (dd==1 && (mainEngine.equals("Magnum")||mainEngine.equals("Bagatur"))) {
-        //    changeDepth(2); // rekursia
-        //    JOptionPane.showMessageDialog(frame, "Magnum/Bagatur engines can't play with depth=1 !\nI am set minimum depth=2 for Bagatur/Magnum.");
-        //}
     }
 
     public static void changeTime(int tt) {
-        frame.mTime5.setSelected(false);
-        frame.mTime10.setSelected(false);
-        frame.mTime15.setSelected(false);
-        frame.mTime20.setSelected(false);
-        frame.mTime25.setSelected(false);
-        frame.mTime30.setSelected(false);
+        frame.mTimeRadioGroup.clearSelection();
+        aktion.Time = tt;
         switch (tt) {
-            case 5:
-                aktion.Time = 5;
-                frame.mTime5.setSelected(true);
-                break;
-            case 10:
-                aktion.Time = 10;
-                frame.mTime10.setSelected(true);
-                break;
-            case 15:
-                aktion.Time = 15;
-                frame.mTime15.setSelected(true);
-                break;
-            case 20:
-                aktion.Time = 20;
-                frame.mTime20.setSelected(true);
-                break;
-            case 25:
-                aktion.Time = 25;
-                frame.mTime25.setSelected(true);
-                break;
-            case 30:
-                aktion.Time = 30;
-                frame.mTime30.setSelected(true);
-                break;
+            case 5:  frame.mTime05.setSelected(true); break;
+            case 10: frame.mTime10.setSelected(true); break;
+            case 15: frame.mTime15.setSelected(true); break;
+            case 20: frame.mTime20.setSelected(true); break;
+            case 25: frame.mTime25.setSelected(true); break;
+            case 30: frame.mTime30.setSelected(true); break;
         }
         bcomboTime.setSelectedItem("" + aktion.Time);
     }
@@ -243,11 +187,6 @@ public class Actions {
             "Mail = harp07@mail.ru .",
             sjceTitle, JOptionPane.INFORMATION_MESSAGE, icon);
     }        
-
-    /*public void About() {
-        About dd = new About(frame, true);
-        dd.setVisible(true);
-    }*/
 
     public void LinksX() {
         CElinksX celx = new CElinksX(frame, true);
