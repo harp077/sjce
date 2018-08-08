@@ -5,7 +5,7 @@ import SJCE.xgui.Interfaces.IChessContext;
 import SJCE.Cfg.AppCfgPref;
 import SJCE.Cfg.BoardThemeSelect;
 import SJCE.more.Actions;
-import SJCE.more.Donate;
+//import SJCE.more.Donate;
 import SJCE.more.Log.LogShow;
 import SJCE.more.Mixer.MixerFrame;
 import SJCE.more.Run_Thread;
@@ -42,6 +42,7 @@ import java.util.logging.Logger;
 import javax.swing.JTextArea;
 
 public class XChessFrame extends JFrame implements IChessContext, IMainFrameConst {
+    
     public static ChessClock chessClock;
     public static MoveListUI moveListUI;
     public static BoardUI boardUI;
@@ -65,7 +66,7 @@ public class XChessFrame extends JFrame implements IChessContext, IMainFrameCons
     public ImageIcon welcomeIcon = new ImageIcon(getClass().getResource("/SJCE/img/sjce-130x87.png"));
     //public static JLabel ceLabel=new JLabel();
     public ImageIcon FrameIcon = new ImageIcon(getClass().getResource("/SJCE/img/SubFrameIcon.png"));
-    public static final String sjceTitle="SJCE = Strong Java Chess Engines, maven build 07.08.18";
+    public static final String sjceTitle="SJCE = Strong Java Chess Engines, build 08.08.18";
     public static LogShow logFrame; 
     
     public XChessFrame() {
@@ -384,7 +385,6 @@ public class XChessFrame extends JFrame implements IChessContext, IMainFrameCons
         bBoardTheme = new javax.swing.JButton();
         bLinks = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
-        bDonate = new javax.swing.JButton();
         bAbout = new javax.swing.JButton();
         bExit = new javax.swing.JButton();
         jToolBar3 = new javax.swing.JToolBar();
@@ -448,7 +448,6 @@ public class XChessFrame extends JFrame implements IChessContext, IMainFrameCons
         mInfo = new javax.swing.JMenu();
         jMenuItem4 = new javax.swing.JMenuItem();
         jMenuItem5 = new javax.swing.JMenuItem();
-        mDonate = new javax.swing.JMenuItem();
         jMenuItem1 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -626,18 +625,6 @@ public class XChessFrame extends JFrame implements IChessContext, IMainFrameCons
             }
         });
         jToolBar1.add(jButton2);
-
-        bDonate.setIcon(new javax.swing.ImageIcon(getClass().getResource("/SJCE/img/24x24/coins-add-icon.png"))); // NOI18N
-        bDonate.setToolTipText("Donate");
-        bDonate.setFocusable(false);
-        bDonate.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        bDonate.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        bDonate.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                bDonateActionPerformed(evt);
-            }
-        });
-        jToolBar1.add(bDonate);
 
         bAbout.setIcon(new javax.swing.ImageIcon(getClass().getResource("/SJCE/img/24x24/info-book-green.png"))); // NOI18N
         bAbout.setToolTipText("About");
@@ -1151,15 +1138,6 @@ public class XChessFrame extends JFrame implements IChessContext, IMainFrameCons
         });
         mInfo.add(jMenuItem5);
 
-        mDonate.setIcon(new javax.swing.ImageIcon(getClass().getResource("/SJCE/img/16x16/donate-coins_add.png"))); // NOI18N
-        mDonate.setText("Donate");
-        mDonate.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                mDonateActionPerformed(evt);
-            }
-        });
-        mInfo.add(mDonate);
-
         jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/SJCE/img/16x16/help-green-16.png"))); // NOI18N
         jMenuItem1.setText("About");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
@@ -1258,7 +1236,7 @@ public class XChessFrame extends JFrame implements IChessContext, IMainFrameCons
     }//GEN-LAST:event_mTime30ActionPerformed
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
-        aktion.About();
+        aktion.about(this);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     private void mUseClockActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mUseClockActionPerformed
@@ -1274,11 +1252,6 @@ public class XChessFrame extends JFrame implements IChessContext, IMainFrameCons
     private void mSelectCEwhiteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mSelectCEwhiteActionPerformed
         this.changeCE("white");
     }//GEN-LAST:event_mSelectCEwhiteActionPerformed
-
-    private void mDonateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mDonateActionPerformed
-      Donate dd=new Donate(frame,true);
-      dd.setVisible(true);  
-    }//GEN-LAST:event_mDonateActionPerformed
 
     private void mBoardThemeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mBoardThemeActionPerformed
         this.changeBoardTheme();
@@ -1316,18 +1289,12 @@ public class XChessFrame extends JFrame implements IChessContext, IMainFrameCons
         aktion.sendEngineCmd("black");
     }//GEN-LAST:event_mSendBlackActionPerformed
 
-    private void bDonateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bDonateActionPerformed
-        Donate dd=new Donate(frame,true);
-        dd.setVisible(true);
-        //aktion.inputForm();
-    }//GEN-LAST:event_bDonateActionPerformed
-
     private void bLinksActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bLinksActionPerformed
         aktion.LinksX();
     }//GEN-LAST:event_bLinksActionPerformed
 
     private void bAboutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bAboutActionPerformed
-        aktion.About();
+        aktion.about(this);
     }//GEN-LAST:event_bAboutActionPerformed
 
     private void bNewActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bNewActionPerformed
@@ -1512,7 +1479,6 @@ public class XChessFrame extends JFrame implements IChessContext, IMainFrameCons
     public static javax.swing.JButton bAbout;
     public static javax.swing.JButton bBoardTheme;
     private javax.swing.JButton bChangeSkin;
-    public static javax.swing.JButton bDonate;
     private javax.swing.JButton bExit;
     private javax.swing.JButton bKillAll;
     private javax.swing.JButton bLinks;
@@ -1558,7 +1524,6 @@ public class XChessFrame extends JFrame implements IChessContext, IMainFrameCons
     public static javax.swing.JRadioButtonMenuItem mDepth7;
     public static javax.swing.JRadioButtonMenuItem mDepth8;
     public static javax.swing.JRadioButtonMenuItem mDepth9;
-    private javax.swing.JMenuItem mDonate;
     private javax.swing.JMenu mEngineConfig;
     private javax.swing.JMenu mEngineDepth;
     private javax.swing.JMenu mEngineMode;

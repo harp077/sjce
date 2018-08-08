@@ -17,9 +17,9 @@ public class Mail_Url {
          { try {
                 d.browse(new URI(suri));
             } catch (IOException ex) {
-               Logger.getLogger(Donate.class.getName()).log(Level.SEVERE, null, ex);
+               Logger.getLogger(Mail_Url.class.getName()).log(Level.SEVERE, null, ex);
             } catch (URISyntaxException ex) {
-               Logger.getLogger(Donate.class.getName()).log(Level.SEVERE, null, ex);
+               Logger.getLogger(Mail_Url.class.getName()).log(Level.SEVERE, null, ex);
             }
          }
     } 
@@ -35,7 +35,7 @@ public class Mail_Url {
                 d.mail(new URI(adres));
                 //d.mail(uri);                
             } catch (IOException ex) {
-               Logger.getLogger(Donate.class.getName()).log(Level.SEVERE, null, ex);
+               Logger.getLogger(Mail_Url.class.getName()).log(Level.SEVERE, null, ex);
             } catch (URISyntaxException ex) {
                 Logger.getLogger(Mail_Url.class.getName()).log(Level.SEVERE, null, ex);
             }

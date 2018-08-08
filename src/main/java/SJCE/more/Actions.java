@@ -42,6 +42,7 @@ import static SJCE.XChessFrame.frame;
 import java.awt.Color;
 import static SJCE.XChessFrame.comboWPlayerCE;
 import static SJCE.XChessFrame.logFrame;
+import static SJCE.XChessFrame.sjceTitle;
 import SJCE.more.Log.FileWorker;
 import SJCE.xgui.JList.MoveListUI;
 import SJCE.xgui.Move;
@@ -52,6 +53,7 @@ import java.util.List;
 import java.util.prefs.Preferences;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
+import javax.swing.JFrame;
 
 public class Actions {
 
@@ -222,11 +224,26 @@ public class Actions {
         //MyInstLF("org.pushingpixels.substance.api.skin.SubstanceEmeraldDuskLookAndFeel");
         //MyInstLF("org.pushingpixels.substance.api.skin.SubstanceChallengerDeepLookAndFeel");
     }
+    
+    public void about(JFrame frame) {
+        ImageIcon icon = new ImageIcon(getClass().getResource("/SJCE/img/sjce-130x87.png"));
+        JOptionPane.showMessageDialog(frame,
+            "SJCE - free portable cross-platform graphical chess game.\n"+
+            "Support many best free java xboard/uci chess ehgines.\n"+
+            "It is possible to play Human-vs-Human, Human-vs-Engine,\n"+
+            "Engine-vs-Engine, both White and Black.\n"+                    
+            "Tested on Windows/Linux. Need jre1.8.\n"+
+            "Roman Koldaev, Saratov city, Russia \n"+
+            "Home = http://sjce.sf.net or \n"+
+            "https://github.com/harp077/sjce ,\n"+
+            "Mail = harp07@mail.ru",
+            sjceTitle, JOptionPane.INFORMATION_MESSAGE, icon);
+    }        
 
-    public void About() {
+    /*public void About() {
         About dd = new About(frame, true);
         dd.setVisible(true);
-    }
+    }*/
 
     public void LinksX() {
         CElinksX celx = new CElinksX(frame, true);
