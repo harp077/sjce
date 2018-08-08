@@ -23,17 +23,12 @@ import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 import javax.swing.UnsupportedLookAndFeelException;
-//import static SJCE.XChessFrame.mcbEffects;
 import org.pushingpixels.lafwidget.animation.AnimationConfigurationManager;
 import org.pushingpixels.lafwidget.animation.AnimationFacet;
 import static SJCE.XChessFrame.boardUI;
 import static SJCE.XChessFrame.moveListUI;
 import static SJCE.XChessFrame.outputArea;
 import SJCE.xgui.Utility;
-import javax.swing.JComboBox;
-import javax.swing.JLabel;
-import javax.swing.JPasswordField;
-import javax.swing.JTextField;
 import static SJCE.XChessFrame.bcomboMode;
 import static SJCE.XChessFrame.bcomboDepth;
 import static SJCE.XChessFrame.bcomboTime;
@@ -43,11 +38,9 @@ import java.awt.Color;
 import static SJCE.XChessFrame.comboWPlayerCE;
 import static SJCE.XChessFrame.logFrame;
 import static SJCE.XChessFrame.sjceTitle;
-import SJCE.more.Log.FileWorker;
 import SJCE.xgui.JList.MoveListUI;
 import SJCE.xgui.Move;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.prefs.Preferences;
@@ -814,14 +807,6 @@ public class Actions {
         ShowClipBoard sc = new ShowClipBoard(logFrame, true);
         sc.ClipboardText.setText(buf);
         sc.setVisible(true);
-    }
-
-    public static void deleteLogFile(String path) {
-        try {
-            FileWorker.delete(path);
-        } catch (FileNotFoundException ex) {
-            //Logger.getLogger(Actions.class.getName()).log(Level.SEVERE, null, ex);
-        }
     }
 
     public void gojChecsSelectCE() {

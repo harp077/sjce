@@ -1,16 +1,9 @@
 package SJCE.Cfg;
 
 import static SJCE.XChessFrame.aktion;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.prefs.BackingStoreException;
-import java.util.prefs.InvalidPreferencesFormatException;
-import java.util.prefs.Preferences;
 
 public class AppCfgPref {
 

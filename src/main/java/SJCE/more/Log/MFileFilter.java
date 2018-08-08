@@ -1,11 +1,15 @@
 package SJCE.more.Log;
+
 import java.io.*;
-public class MFileFilter extends javax.swing.filechooser.FileFilter 
-{
+
+public class MFileFilter extends javax.swing.filechooser.FileFilter {
+    
     String ext;
+    
     public MFileFilter(String txt){
         this.ext=txt;
     }
+    
     public boolean accept(File f){
         if(f==null)
           return false;
@@ -15,7 +19,9 @@ public class MFileFilter extends javax.swing.filechooser.FileFilter
         else
           return (f.getName().endsWith(ext)||f.getName().endsWith(ext.toUpperCase()));
       }
+    
     public String getDescription(){
-          return "Files "+ext;
+          return "Files:  *."+ext;
     }
+    
 }
