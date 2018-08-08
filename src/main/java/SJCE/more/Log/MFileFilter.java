@@ -21,7 +21,7 @@ public class MFileFilter extends javax.swing.filechooser.FileFilter {
       }
     
     public String getDescription(){
-          return "Files:  *."+ext;
+          return "Files:  *"+ext;
     }
     
 }
