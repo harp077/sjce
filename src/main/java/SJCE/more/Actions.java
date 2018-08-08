@@ -230,13 +230,17 @@ public class Actions {
         JOptionPane.showMessageDialog(frame,
             "SJCE - free portable cross-platform graphical chess game.\n"+
             "Support many best free java xboard/uci chess ehgines.\n"+
-            "It is possible to play Human-vs-Human, Human-vs-Engine,\n"+
+            "It is possible to play Human-Human, Human-Engine and\n"+
             "Engine-vs-Engine, both White and Black.\n"+                    
-            "Tested on Windows/Linux. Need jre1.8.\n"+
+            "Special thanks for Norbert Raimund Leisner - \n"+
+            "http://computer-chess.org/ , and also for Dr. \n"+
+            "Roland Stuckardt - http://www.stuckardt.de/ ,\n"+ 
+            "and also for all Java-chess-engine developers.\n"+
+            "Tested on Windows/Linux. Need jre1.8.\n"+                    
             "Roman Koldaev, Saratov city, Russia \n"+
-            "Home = http://sjce.sf.net or \n"+
+            "Home = http://sjce.sf.net , or \n"+
             "https://github.com/harp077/sjce ,\n"+
-            "Mail = harp07@mail.ru",
+            "Mail = harp07@mail.ru .",
             sjceTitle, JOptionPane.INFORMATION_MESSAGE, icon);
     }        
 
@@ -435,7 +439,7 @@ public class Actions {
                 break;
             case "Fischerle":
                 setIconAndTipCE("ce/logo/fischerle_100x50.png", colorCE, "uci");
-                JOptionPane.showMessageDialog(frame, "Fischerle create by Dr. Roland Stuckardt - http://www.stuckardt.de/\nSJCE use Fischerle version 0.9.70 SE 32 bit\nAll documents about Fischerle and licence see please\nin folder: /SJCE/bin/ce/Fischerle/");
+                JOptionPane.showMessageDialog(frame, "Fischerle create by Dr. Roland Stuckardt - http://www.stuckardt.de/\nSJCE use Fischerle version 0.9.70 SE 32 bit\nDocuments about Fischerle and licence see please\nin folder: /ce/Fischerle/");
                 break;
             case "Flux":
                 setIconAndTipCE("ce/logo/fluxII_100x50.gif", colorCE, "uci");

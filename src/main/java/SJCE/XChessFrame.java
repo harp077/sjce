@@ -386,7 +386,6 @@ public class XChessFrame extends JFrame implements IChessContext, IMainFrameCons
         bLinks = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         bAbout = new javax.swing.JButton();
-        bExit = new javax.swing.JButton();
         jToolBar3 = new javax.swing.JToolBar();
         bNew = new javax.swing.JButton();
         bKillAll = new javax.swing.JButton();
@@ -637,18 +636,6 @@ public class XChessFrame extends JFrame implements IChessContext, IMainFrameCons
             }
         });
         jToolBar1.add(bAbout);
-
-        bExit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/SJCE/img/24x24/exit.png"))); // NOI18N
-        bExit.setToolTipText("Exit");
-        bExit.setFocusable(false);
-        bExit.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        bExit.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        bExit.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                bExitActionPerformed(evt);
-            }
-        });
-        jToolBar1.add(bExit);
 
         jToolBar2.add(jToolBar1);
 
@@ -1380,11 +1367,6 @@ public class XChessFrame extends JFrame implements IChessContext, IMainFrameCons
         this.changeCE("black");
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    private void bExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bExitActionPerformed
-        int r = JOptionPane.showConfirmDialog(frame,"Really Quit ?", "Quit ?",JOptionPane.YES_NO_OPTION);
-        if(r == JOptionPane.YES_OPTION) {  System.exit(0); }
-    }//GEN-LAST:event_bExitActionPerformed
-
     private void bUndoLastActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bUndoLastActionPerformed
         aktion.bmUndoLastMoveEventHandler();
     }//GEN-LAST:event_bUndoLastActionPerformed
@@ -1479,7 +1461,6 @@ public class XChessFrame extends JFrame implements IChessContext, IMainFrameCons
     public static javax.swing.JButton bAbout;
     public static javax.swing.JButton bBoardTheme;
     private javax.swing.JButton bChangeSkin;
-    private javax.swing.JButton bExit;
     private javax.swing.JButton bKillAll;
     private javax.swing.JButton bLinks;
     private javax.swing.JButton bNew;
