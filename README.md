@@ -5,7 +5,6 @@
 ![Free](https://img.shields.io/badge/free-open--source-green.svg)
 <a href="https://github.com/harp077/sjce/stargazers"><img src="https://img.shields.io/github/stars/harp077/sjce?style=flat" alt="GitHub stars" /></a>
 # SJCE - Strong Java Chess Engines - graphical chess game
-This is a backup copy of my project https://sourceforge.net/projects/sjce/ .
 SJCE - Strong Java Chess Engines, 
 free portable cross-platform graphical chess game, 100%-pure Java.  
 Support many best free java xboard/uci chess ehgines.
