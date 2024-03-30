@@ -4,6 +4,7 @@
 [![Java 8+](https://img.shields.io/badge/Java-8%2B-teal)](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
 ![Free](https://img.shields.io/badge/free-open--source-green.svg)
 [![HitCount](https://hits.dwyl.com/harp077/sjce.svg?style=flat)](http://hits.dwyl.com/harp077/sjce)
+[![GitHub followers](https://img.shields.io/github/followers/harp077?label=Follow&style=social)](https://github.com/harp077)
 <a href="https://github.com/harp077/sjce/stargazers"><img src="https://img.shields.io/github/stars/harp077/sjce?style=flat" alt="GitHub stars" /></a>
 # SJCE - Strong Java Chess Engines - graphical chess game
 SJCE - Strong Java Chess Engines, 
