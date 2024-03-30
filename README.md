@@ -11,6 +11,7 @@
 <a href="https://github.com/harp077/sjce/commits/" title="Last Commit"><img src="https://img.shields.io/github/last-commit/harp077/sjce?style=flat"></a>
 <a href="https://github.com/harp077/sjce/issues" title="Open Issues"><img src="https://img.shields.io/github/issues/harp077/sjce?style=flat"></a>
 <a href="https://github.com/harp077/sjce/stargazers"><img src="https://img.shields.io/github/stars/harp077/sjce?style=flat" alt="GitHub stars" /></a>
+<a href="https://sourceforge.net/projects/sjce" title="SourceForge Downloads"><img alt="SourceForge Downloads" src="https://img.shields.io/sourceforge/dt/sjce"></a>
 <!-- styles = flat, flat-square, social  -->
 # SJCE - Strong Java Chess Engines - graphical chess game
 SJCE - Strong Java Chess Engines, 
