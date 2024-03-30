@@ -6,6 +6,7 @@
 [![HitCount](https://hits.dwyl.com/harp077/sjce.svg?style=flat)](http://hits.dwyl.com/harp077/sjce)
 [![GitHub followers](https://img.shields.io/github/followers/harp077?label=Follow&style=flat)](https://github.com/harp077)
 ![GitHub language count](https://img.shields.io/github/languages/count/harp077/sjce)
+![GitHub search hit counter](https://img.shields.io/github/search/harp077/sjce/release)
 <a target="_blank" href="https://docs.oracle.com/javase/8/docs/api"><img src="https://img.shields.io/badge/API-8-violet.svg"></a>
 <a href="https://github.com/harp077/sjce/commits/" title="Last Commit"><img src="https://img.shields.io/github/last-commit/harp077/sjce?style=flat"></a>
 <a href="https://github.com/harp077/sjce/issues" title="Open Issues"><img src="https://img.shields.io/github/issues/harp077/sjce?style=flat"></a>
